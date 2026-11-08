@@ -1,2 +1,0 @@
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.27:19999#NF001%20245ms%200.2M%20TG2067ms%20%F0%9F%87%AE%F0%9F%87%B9%20%E6%84%8F%E5%A4%A7%E5%88%A9%20%7C%20ITA%20%233
-vless://1b8a6692-d057-41f8-a108-7a02daefcfd6@5.104.74.27:8443?encryption=none&type=tcp&security=reality&sni=uk-room07.filesnap.tech&fp=ios&flow=xtls-rprx-vision&pbk=48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM&sid=dbef98744832b751#NF002%20208ms%200.1M%20TG5531ms%204Sarina-8fffcffc13
