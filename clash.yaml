@@ -1,0 +1,41 @@
+# nodeforge — Clash Meta / mihomo
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+proxies:
+  - name: 'NF001 245ms 0.2M TG2067ms 🇮🇹 意大利 | ITA #3'
+    server: 202.50.253.27
+    port: 19999
+    udp: true
+    skip-cert-verify: false
+    type: ss
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+  - name: 'NF002 208ms 0.1M TG5531ms 4Sarina-8fffcffc13'
+    server: 5.104.74.27
+    port: 8443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '1b8a6692-d057-41f8-a108-7a02daefcfd6'
+    tls: true
+    servername: 'uk-room07.filesnap.tech'
+    reality-opts:
+      public-key: '48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM'
+      short-id: dbef98744832b751
+    client-fingerprint: ios
+    flow: 'xtls-rprx-vision'
+proxy-groups:
+  - name: PROXY
+    type: select
+    proxies: ['NF001 245ms 0.2M TG2067ms 🇮🇹 意大利 | ITA #3', 'NF002 208ms 0.1M TG5531ms 4Sarina-8fffcffc13']
+  - name: AUTO
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies: ['NF001 245ms 0.2M TG2067ms 🇮🇹 意大利 | ITA #3', 'NF002 208ms 0.1M TG5531ms 4Sarina-8fffcffc13']
+rules:
+  - GEOIP,CN,DIRECT
+  - MATCH,PROXY
