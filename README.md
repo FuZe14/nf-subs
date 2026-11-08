@@ -1,2 +1,0 @@
-# nf-subs
-nodeforge subscription
