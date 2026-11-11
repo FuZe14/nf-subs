@@ -1,44 +1,58 @@
 {
-  "generated_at": "20261112-010222",
-  "best": 2,
-  "all": 23,
-  "lines": 2,
+  "generated_at": "20261112-013644",
+  "best": 3,
+  "all": 28,
+  "lines": 3,
   "meta": {
-    "tested": 813,
-    "servable": 23
+    "tested": 1575,
+    "servable": 28
   },
   "countries": [
-    "IT",
-    "PL"
+    "CA",
+    "IT"
   ],
   "nodes": [
     {
-      "display_name": "NF001 波兰 233ms 0.2M TG2371ms 🇵🇱 波兰 | POL 2",
+      "display_name": "NF001 加拿大 209ms 1.4M TG3105ms 4Sarina-82bf342290",
       "proto": "vless",
-      "host": "138.124.242.46",
+      "host": "n03.jinggai.online",
       "tg_ok": true,
-      "tg_ms": 2371.6,
-      "port": "8443",
-      "tcp_ms": 233.799599998747,
-      "real_ms": 1435.4,
-      "country": "PL",
-      "country_name": "波兰",
-      "speed_mbps": 0.25,
-      "score": 27.37
+      "tg_ms": 3105.9,
+      "port": "443",
+      "tcp_ms": 209.124699998938,
+      "real_ms": 1515.8,
+      "country": "CA",
+      "country_name": "加拿大",
+      "speed_mbps": 1.36,
+      "score": 36.57
     },
     {
-      "display_name": "NF002 IT 250ms 0.3M TG4440ms 🇮🇹 意大利 | ITA #2",
+      "display_name": "NF002 IT 254ms 0.2M TG3773ms 🇮🇹 意大利 | ITA #3",
       "proto": "ss",
-      "host": "202.50.253.36",
+      "host": "202.50.253.54",
       "tg_ok": true,
-      "tg_ms": 4440.5,
+      "tg_ms": 3773.1,
       "port": "19999",
-      "tcp_ms": 250.12099999730708,
-      "real_ms": 704.1,
+      "tcp_ms": 254.37219999730587,
+      "real_ms": 3738.8,
       "country": "IT",
       "country_name": "IT",
-      "speed_mbps": 0.35,
-      "score": 26.36
+      "speed_mbps": 0.23,
+      "score": 25.13
+    },
+    {
+      "display_name": "NF003 IT 248ms 0.1M TG2245ms 🇮🇹 意大利 | ITA #1",
+      "proto": "ss",
+      "host": "202.50.253.63",
+      "tg_ok": true,
+      "tg_ms": 2245.8,
+      "port": "19999",
+      "tcp_ms": 248.97020000207704,
+      "real_ms": 1654.7,
+      "country": "IT",
+      "country_name": "IT",
+      "speed_mbps": 0.1,
+      "score": 25.01
     }
   ]
 }
