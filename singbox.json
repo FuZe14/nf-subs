@@ -17,6 +17,7 @@
       "outbounds": [
         "nf001",
         "nf002",
+        "nf003",
         "direct"
       ],
       "default": "nf001"
@@ -24,23 +25,31 @@
     {
       "type": "vless",
       "tag": "nf001",
-      "server": "138.124.242.46",
-      "server_port": 8443,
-      "uuid": "3f5e89d5-591f-4ac9-b071-b05680b573c3",
+      "server": "n03.jinggai.online",
+      "server_port": 443,
+      "uuid": "92bf29cc-ee08-4c97-bf0b-b4dff41e5bd8",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "pl2-edge.gacvpn.site"
+        "server_name": "n03.jinggai.online"
       },
       "transport": {
         "type": "grpc",
-        "service_name": "connect-pl"
+        "service_name": "node03"
       }
     },
     {
       "type": "shadowsocks",
       "tag": "nf002",
-      "server": "202.50.253.36",
+      "server": "202.50.253.54",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "nf003",
+      "server": "202.50.253.63",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
