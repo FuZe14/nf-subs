@@ -5,238 +5,16 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: 'NF001 63ms 3.9M TG3964ms 4Nika-251e4c8355'
-    server: 'dddz-1-x.473221.xyz'
-    port: 34759
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '65ec84f5-0dd4-4582-8b4f-592e50b22116'
-    tls: true
-    servername: 'v1-dy.ixigua.com'
-    reality-opts:
-      public-key: H0AETHQQIsu1c7ZHZ5RUgNaLYIVdMI6gJlMaBLBeX3o
-      short-id: 5e0eb283246c6911
-    client-fingerprint: edge
-    flow: 'xtls-rprx-vision'
-  - name: 'NF002 206ms 2.0M TG2357ms 4FreeIran-c4ce6d9268'
-    server: edge.bookmai.com
-    port: 443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: 'b9bfa54d-bc44-4592-a6d6-89a9665d286f'
-    tls: true
-    servername: 'mother-earth.fyi'
-    reality-opts:
-      public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
-      short-id: ''
-    client-fingerprint: chrome
-    flow: 'xtls-rprx-vision'
-  - name: 'NF003 62ms 0.5M TG7108ms 4Mohsen-3a381c9d3c'
-    server: 104.18.45.236
-    port: 2096
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '51a0af77-a60c-4d9b-81a4-f50e1b38d90b'
-    tls: true
-    servername: mohammadhoseini4532.pages.dev
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: mohammadhoseini4532.pages.dev
-  - name: 'NF004 211ms 0.9M TG852ms 4FreeIran-e746929679'
-    server: russia.com
-    port: 443
-    udp: true
-    skip-cert-verify: false
-    type: trojan
-    password: 'bpb-trojan'
-    sni: kargar001.pages.dev
-    network: ws
-    ws-opts:
-      path: '/tr?ed=2560'
-      headers:
-        Host: kargar001.pages.dev
-  - name: 'NF005 203ms 1.0M TG2084ms 4Mohsen-b036fc333f'
-    server: 212.69.135.27
-    port: 8443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: 'a941243b-4b25-465f-ba2c-1dc4e1d16217'
-    tls: true
-    servername: 'uk-room05.filesnap.tech'
-    reality-opts:
-      public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
-      short-id: 7da3ba09a037e956
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
-  - name: 'NF006 200ms 1.0M TG2401ms 4Jadi-5855a76505'
-    server: 5.104.74.25
-    port: 8443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '7ea09162-0f21-485e-b576-dcedc8b6587b'
-    tls: true
-    servername: 'uk-room07.filesnap.tech'
-    reality-opts:
-      public-key: '48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM'
-      short-id: dbef98744832b751
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
-  - name: 'NF007 246ms 1.6M TG4578ms 4Jadi-2ff868f37b'
-    server: 4okhrijuyjytflnvowhl3zfw5wsgi34o.pages.dev
-    port: 443
-    udp: true
-    skip-cert-verify: false
-    type: trojan
-    password: 'Nd2bFutZK2ma29bYqC@z'
-    sni: 4oKhrijUyjyTFlnvoWhL3ZFW5wSGI34O.PAGeS.DeV
-    network: ws
-    ws-opts:
-      path: '/tr/2W6ONoBA1CTMk80znuAVgQ9dvWey2KD8?ed=2560'
-      headers:
-        Host: 4okhrijuyjytflnvowhl3zfw5wsgi34o.pages.dev
-  - name: 'NF008 206ms 0.8M TG2234ms 4FreeIran-1e35f49cf8'
-    server: 5.104.74.21
-    port: 8443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '73b518e9-c8aa-41f1-af51-b8baf24064cb'
-    tls: true
-    servername: 'uk-room05.filesnap.tech'
-    reality-opts:
-      public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
-      short-id: 7da3ba09a037e956
-    client-fingerprint: chrome
-    flow: 'xtls-rprx-vision'
-  - name: 'NF009 193ms 0.9M TG4316ms 4Mohsen-3a595c1bfc'
-    server: 212.69.135.29
-    port: 8443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '952150a2-4fd5-4e20-a6d5-eaaae6b575f8'
-    tls: true
-    servername: 'uk-room05.filesnap.tech'
-    reality-opts:
-      public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
-      short-id: 7da3ba09a037e956
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
-  - name: 'NF010 225ms 0.7M TG2048ms 4FreeIran-fb764caab0'
-    server: 5.104.74.27
-    port: 8443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: 'a941243b-4b25-465f-ba2c-1dc4e1d16217'
-    tls: true
-    servername: 'uk-room07.filesnap.tech'
-    reality-opts:
-      public-key: '48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM'
-      short-id: dbef98744832b751
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
-  - name: 'NF011 211ms 0.5M TG2025ms 4Mohsen-c4c2098987'
-    server: 163.245.42.5
-    port: 443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: 'b9bfa54d-bc44-4592-a6d6-89a9665d286f'
-    tls: true
-    servername: 'mother-earth.fyi'
-    reality-opts:
-      public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
-      short-id: ''
-    client-fingerprint: chrome
-    flow: 'xtls-rprx-vision'
-  - name: 'NF012 261ms 0.6M TG1904ms 🇮🇹 意大利 | ITA #2'
-    server: 202.50.253.81
+  - name: 'NF001 251ms 0.1M TG2527ms 🇮🇹 意大利 | ITA #3'
+    server: 202.50.253.36
     port: 19999
     udp: true
     skip-cert-verify: false
     type: ss
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF013 200ms 0.4M TG3101ms 4Mohsen-086b69a3cb'
-    server: 176.100.37.154
-    port: 443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '3bb97d46-789b-4229-88f6-9beb222a4137'
-    tls: true
-    servername: 'modx-au.bachidze.com'
-    reality-opts:
-      public-key: 'EVmZyqEbtEI8d93h1MkFjNVj-DVZRATr9C1Dh1OODmE'
-      short-id: ''
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
-  - name: 'NF014 211ms 0.2M TG1871ms @FXxNET⚡️'
-    server: 5.104.74.128
-    port: 8443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '0f292d9f-b0c4-4a39-be09-2470b88bfe37'
-    tls: true
-    servername: 'uk-room07.filesnap.tech'
-    reality-opts:
-      public-key: '48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM'
-      short-id: dbef98744832b751
-    client-fingerprint: chrome
-    flow: 'xtls-rprx-vision'
-  - name: 'NF015 205ms 0.2M TG2553ms 4FreeIran-f7d45c1c4a'
-    server: 5.104.74.70
-    port: 8443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '176b50a0-cce0-416d-bc4c-6694271985dd'
-    tls: true
-    servername: 'uk-room07.filesnap.tech'
-    reality-opts:
-      public-key: '48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM'
-      short-id: dbef98744832b751
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
-  - name: 'NF016 225ms 0.2M TG2716ms 4Nika-cf771f317c'
-    server: 5.104.74.121
-    port: 8443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: 'a2e6a96e-395f-4125-917c-77c52c059339'
-    tls: true
-    servername: 'uk-room05.filesnap.tech'
-    reality-opts:
-      public-key: FdZlh9FC4ay9OGnKG6K_iNqhz1I3tWDfNZhxrDYuQl8
-      short-id: 7da3ba09a037e956
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
-  - name: 'NF017 196ms 0.1M TG2000ms 4FreeIran-f5805c2ad5'
-    server: 5.104.74.69
-    port: 8443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '16cd1338-ecb9-44f3-8f0c-919242370ef2'
-    tls: true
-    servername: 'uk-room06.filesnap.tech'
-    reality-opts:
-      public-key: D9IxnCLtXuDLR1yBNZwWdxxbNDfsZgN3C9IsqKgG8Ec
-      short-id: 17a35165f9d25923
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
-  - name: 'NF018 254ms 0.1M TG2067ms 🇮🇹 意大利 | ITA #7'
-    server: 202.50.253.99
+  - name: 'NF002 248ms 0.1M TG3668ms 🇮🇹IT_1|1005KB/s'
+    server: 202.50.253.45
     port: 19999
     udp: true
     skip-cert-verify: false
@@ -246,12 +24,12 @@ proxies:
 proxy-groups:
   - name: PROXY
     type: select
-    proxies: ['NF001 63ms 3.9M TG3964ms 4Nika-251e4c8355', 'NF002 206ms 2.0M TG2357ms 4FreeIran-c4ce6d9268', 'NF003 62ms 0.5M TG7108ms 4Mohsen-3a381c9d3c', 'NF004 211ms 0.9M TG852ms 4FreeIran-e746929679', 'NF005 203ms 1.0M TG2084ms 4Mohsen-b036fc333f', 'NF006 200ms 1.0M TG2401ms 4Jadi-5855a76505', 'NF007 246ms 1.6M TG4578ms 4Jadi-2ff868f37b', 'NF008 206ms 0.8M TG2234ms 4FreeIran-1e35f49cf8', 'NF009 193ms 0.9M TG4316ms 4Mohsen-3a595c1bfc', 'NF010 225ms 0.7M TG2048ms 4FreeIran-fb764caab0', 'NF011 211ms 0.5M TG2025ms 4Mohsen-c4c2098987', 'NF012 261ms 0.6M TG1904ms 🇮🇹 意大利 | ITA #2', 'NF013 200ms 0.4M TG3101ms 4Mohsen-086b69a3cb', 'NF014 211ms 0.2M TG1871ms @FXxNET⚡️', 'NF015 205ms 0.2M TG2553ms 4FreeIran-f7d45c1c4a', 'NF016 225ms 0.2M TG2716ms 4Nika-cf771f317c', 'NF017 196ms 0.1M TG2000ms 4FreeIran-f5805c2ad5', 'NF018 254ms 0.1M TG2067ms 🇮🇹 意大利 | ITA #7']
+    proxies: ['NF001 251ms 0.1M TG2527ms 🇮🇹 意大利 | ITA #3', 'NF002 248ms 0.1M TG3668ms 🇮🇹IT_1|1005KB/s']
   - name: AUTO
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies: ['NF001 63ms 3.9M TG3964ms 4Nika-251e4c8355', 'NF002 206ms 2.0M TG2357ms 4FreeIran-c4ce6d9268', 'NF003 62ms 0.5M TG7108ms 4Mohsen-3a381c9d3c', 'NF004 211ms 0.9M TG852ms 4FreeIran-e746929679', 'NF005 203ms 1.0M TG2084ms 4Mohsen-b036fc333f', 'NF006 200ms 1.0M TG2401ms 4Jadi-5855a76505', 'NF007 246ms 1.6M TG4578ms 4Jadi-2ff868f37b', 'NF008 206ms 0.8M TG2234ms 4FreeIran-1e35f49cf8', 'NF009 193ms 0.9M TG4316ms 4Mohsen-3a595c1bfc', 'NF010 225ms 0.7M TG2048ms 4FreeIran-fb764caab0', 'NF011 211ms 0.5M TG2025ms 4Mohsen-c4c2098987', 'NF012 261ms 0.6M TG1904ms 🇮🇹 意大利 | ITA #2', 'NF013 200ms 0.4M TG3101ms 4Mohsen-086b69a3cb', 'NF014 211ms 0.2M TG1871ms @FXxNET⚡️', 'NF015 205ms 0.2M TG2553ms 4FreeIran-f7d45c1c4a', 'NF016 225ms 0.2M TG2716ms 4Nika-cf771f317c', 'NF017 196ms 0.1M TG2000ms 4FreeIran-f5805c2ad5', 'NF018 254ms 0.1M TG2067ms 🇮🇹 意大利 | ITA #7']
+    proxies: ['NF001 251ms 0.1M TG2527ms 🇮🇹 意大利 | ITA #3', 'NF002 248ms 0.1M TG3668ms 🇮🇹IT_1|1005KB/s']
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
