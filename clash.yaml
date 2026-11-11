@@ -5,18 +5,26 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: 'NF001 波兰 233ms 0.2M TG2371ms 🇵🇱 波兰 | POL 2'
-    server: 138.124.242.46
-    port: 8443
+  - name: 'NF001 加拿大 209ms 1.4M TG3105ms 4Sarina-82bf342290'
+    server: n03.jinggai.online
+    port: 443
     udp: true
     skip-cert-verify: false
     type: vless
-    uuid: '3f5e89d5-591f-4ac9-b071-b05680b573c3'
+    uuid: '92bf29cc-ee08-4c97-bf0b-b4dff41e5bd8'
     tls: true
-    servername: 'pl2-edge.gacvpn.site'
+    servername: n03.jinggai.online
     network: grpc
-  - name: 'NF002 IT 250ms 0.3M TG4440ms 🇮🇹 意大利 | ITA #2'
-    server: 202.50.253.36
+  - name: 'NF002 IT 254ms 0.2M TG3773ms 🇮🇹 意大利 | ITA #3'
+    server: 202.50.253.54
+    port: 19999
+    udp: true
+    skip-cert-verify: false
+    type: ss
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+  - name: 'NF003 IT 248ms 0.1M TG2245ms 🇮🇹 意大利 | ITA #1'
+    server: 202.50.253.63
     port: 19999
     udp: true
     skip-cert-verify: false
@@ -26,12 +34,12 @@ proxies:
 proxy-groups:
   - name: PROXY
     type: select
-    proxies: ['NF001 波兰 233ms 0.2M TG2371ms 🇵🇱 波兰 | POL 2', 'NF002 IT 250ms 0.3M TG4440ms 🇮🇹 意大利 | ITA #2']
+    proxies: ['NF001 加拿大 209ms 1.4M TG3105ms 4Sarina-82bf342290', 'NF002 IT 254ms 0.2M TG3773ms 🇮🇹 意大利 | ITA #3', 'NF003 IT 248ms 0.1M TG2245ms 🇮🇹 意大利 | ITA #1']
   - name: AUTO
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies: ['NF001 波兰 233ms 0.2M TG2371ms 🇵🇱 波兰 | POL 2', 'NF002 IT 250ms 0.3M TG4440ms 🇮🇹 意大利 | ITA #2']
+    proxies: ['NF001 加拿大 209ms 1.4M TG3105ms 4Sarina-82bf342290', 'NF002 IT 254ms 0.2M TG3773ms 🇮🇹 意大利 | ITA #3', 'NF003 IT 248ms 0.1M TG2245ms 🇮🇹 意大利 | ITA #1']
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
