@@ -1,11 +1,11 @@
 {
-  "generated_at": "20261112-013644",
-  "best": 3,
-  "all": 28,
-  "lines": 3,
+  "generated_at": "20261112-020228",
+  "best": 2,
+  "all": 36,
+  "lines": 2,
   "meta": {
-    "tested": 1575,
-    "servable": 28
+    "tested": 2354,
+    "servable": 36
   },
   "countries": [
     "CA",
@@ -13,46 +13,32 @@
   ],
   "nodes": [
     {
-      "display_name": "NF001 加拿大 209ms 1.4M TG3105ms 4Sarina-82bf342290",
+      "display_name": "NF001 加拿大 226ms 1.1M TG3486ms 4Sarina-82bf342290",
       "proto": "vless",
       "host": "n03.jinggai.online",
       "tg_ok": true,
-      "tg_ms": 3105.9,
+      "tg_ms": 3486.4,
       "port": "443",
-      "tcp_ms": 209.124699998938,
-      "real_ms": 1515.8,
+      "tcp_ms": 226.20670000469545,
+      "real_ms": 1484.2,
       "country": "CA",
       "country_name": "加拿大",
-      "speed_mbps": 1.36,
-      "score": 36.57
+      "speed_mbps": 1.08,
+      "score": 33.9
     },
     {
-      "display_name": "NF002 IT 254ms 0.2M TG3773ms 🇮🇹 意大利 | ITA #3",
+      "display_name": "NF002 IT 244ms 0.4M TG5257ms 🇮🇹[www.v2nodes.com] ",
       "proto": "ss",
-      "host": "202.50.253.54",
+      "host": "202.50.253.45",
       "tg_ok": true,
-      "tg_ms": 3773.1,
+      "tg_ms": 5257.6,
       "port": "19999",
-      "tcp_ms": 254.37219999730587,
-      "real_ms": 3738.8,
+      "tcp_ms": 244.41790000128094,
+      "real_ms": 1622.6,
       "country": "IT",
       "country_name": "IT",
-      "speed_mbps": 0.23,
-      "score": 25.13
-    },
-    {
-      "display_name": "NF003 IT 248ms 0.1M TG2245ms 🇮🇹 意大利 | ITA #1",
-      "proto": "ss",
-      "host": "202.50.253.63",
-      "tg_ok": true,
-      "tg_ms": 2245.8,
-      "port": "19999",
-      "tcp_ms": 248.97020000207704,
-      "real_ms": 1654.7,
-      "country": "IT",
-      "country_name": "IT",
-      "speed_mbps": 0.1,
-      "score": 25.01
+      "speed_mbps": 0.39,
+      "score": 26.74
     }
   ]
 }
