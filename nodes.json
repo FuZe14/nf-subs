@@ -1,36 +1,108 @@
 {
-  "generated_at": "20261111-180243",
-  "best": 2,
-  "all": 94,
-  "lines": 2,
+  "generated_at": "20261111-205927",
+  "best": 8,
+  "all": 73,
+  "lines": 8,
   "meta": {
     "tested": 3000,
-    "servable": 94
+    "servable": 73
   },
   "nodes": [
     {
-      "display_name": "NF001 251ms 0.1M TG2527ms 🇮🇹 意大利 | ITA #3",
-      "proto": "ss",
-      "host": "202.50.253.36",
+      "display_name": "NF001 180ms 0.6M TG7691ms 4Sarina-6c10cc281a",
+      "proto": "vless",
+      "host": "04535dt.us8.h1clayd.click",
       "tg_ok": true,
-      "tg_ms": 2527.2,
-      "port": "19999",
-      "tcp_ms": 251.27190000057453,
-      "real_ms": 587.1,
-      "speed_mbps": 0.08,
-      "score": 24.29
+      "tg_ms": 7691.4,
+      "port": "443",
+      "tcp_ms": 180.1908000052208,
+      "real_ms": 1852.9,
+      "speed_mbps": 0.64,
+      "score": 31.64
     },
     {
-      "display_name": "NF002 248ms 0.1M TG3668ms 🇮🇹IT_1|1005KB/s",
+      "display_name": "NF002 190ms 0.2M TG4531ms 4Mohsen-8f97c89913",
+      "proto": "vless",
+      "host": "0592efg.us8.h1clayd.click",
+      "tg_ok": true,
+      "tg_ms": 4531.7,
+      "port": "443",
+      "tcp_ms": 190.60460000036983,
+      "real_ms": 3775.9,
+      "speed_mbps": 0.24,
+      "score": 27.77
+    },
+    {
+      "display_name": "NF003 216ms 0.1M TG1829ms 4FreeIran-cb97476ab9",
+      "proto": "vless",
+      "host": "verbena.keyhit.top",
+      "tg_ok": true,
+      "tg_ms": 1829.4,
+      "port": "443",
+      "tcp_ms": 216.100000005099,
+      "real_ms": 1325.2,
+      "speed_mbps": 0.12,
+      "score": 27.38
+    },
+    {
+      "display_name": "NF004 244ms 0.2M TG2493ms 🇮🇹IT_1|1005KB/s",
       "proto": "ss",
       "host": "202.50.253.45",
       "tg_ok": true,
-      "tg_ms": 3668.7,
+      "tg_ms": 2493.6,
       "port": "19999",
-      "tcp_ms": 248.10909999723663,
-      "real_ms": 640.2,
+      "tcp_ms": 244.77099999785423,
+      "real_ms": 710.4,
+      "speed_mbps": 0.25,
+      "score": 26.77
+    },
+    {
+      "display_name": "NF005 246ms 0.1M TG1899ms 🇮🇹[www.v2nodes.com] ss",
+      "proto": "ss",
+      "host": "202.50.253.99",
+      "tg_ok": true,
+      "tg_ms": 1899.5,
+      "port": "19999",
+      "tcp_ms": 246.1567999998806,
+      "real_ms": 606.5,
+      "speed_mbps": 0.08,
+      "score": 25.4
+    },
+    {
+      "display_name": "NF006 204ms 0.1M TG7518ms 4Jadi-670948656f",
+      "proto": "vless",
+      "host": "f0d7aft.nl13.h1clayd.click",
+      "tg_ok": true,
+      "tg_ms": 7518.4,
+      "port": "443",
+      "tcp_ms": 204.72909999807598,
+      "real_ms": 3232.7,
+      "speed_mbps": 0.07,
+      "score": 24.16
+    },
+    {
+      "display_name": "NF007 231ms 0.1M TG5486ms 4Kian-3ca10dee5c",
+      "proto": "vless",
+      "host": "196.199.122.2",
+      "tg_ok": true,
+      "tg_ms": 5486.5,
+      "port": "443",
+      "tcp_ms": 231.08240000146907,
+      "real_ms": 3676.5,
       "speed_mbps": 0.08,
       "score": 23.5
+    },
+    {
+      "display_name": "NF008 254ms 0.1M TG3618ms 🇮🇹 意大利 | ITA #1",
+      "proto": "ss",
+      "host": "202.50.253.18",
+      "tg_ok": true,
+      "tg_ms": 3618.4,
+      "port": "19999",
+      "tcp_ms": 254.44060000154423,
+      "real_ms": 740.3,
+      "speed_mbps": 0.08,
+      "score": 23.27
     }
   ]
 }
