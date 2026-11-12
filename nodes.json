@@ -1,87 +1,57 @@
 {
-  "generated_at": "20261112-161705",
-  "best": 5,
-  "all": 30,
-  "lines": 5,
+  "generated_at": "20261112-231311",
+  "best": 3,
+  "all": 23,
+  "lines": 3,
   "meta": {
-    "tested": 1658,
-    "servable": 30
+    "tested": 1682,
+    "servable": 23
   },
   "countries": [
-    "IT",
-    "TR",
-    "ZZ"
+    "IT"
   ],
   "nodes": [
     {
-      "display_name": "NF001 土耳其 189ms 0.1M TG4117ms 4Sarina-aedb9ab86e",
-      "proto": "vmess",
-      "host": "snapp.ir",
-      "tg_ok": true,
-      "tg_ms": 4117.6,
-      "port": 80,
-      "tcp_ms": 189.29340000067896,
-      "real_ms": 1292.3,
-      "country": "TR",
-      "country_name": "土耳其",
-      "speed_mbps": 0.12,
-      "score": 26.5
-    },
-    {
-      "display_name": "NF002 IT 253ms 0.1M TG2506ms 🇮🇹 意大利 | ITA #1",
+      "display_name": "NF001 IT 262ms 0.7M TG4303ms 🇮🇹IT_4|1.7MB/s",
       "proto": "ss",
       "host": "202.50.253.72",
       "tg_ok": true,
-      "tg_ms": 2506.1,
+      "tg_ms": 4303.8,
       "port": "19999",
-      "tcp_ms": 253.7438999988808,
-      "real_ms": 697.7,
+      "tcp_ms": 262.03540000278736,
+      "real_ms": 2221.7,
       "country": "IT",
       "country_name": "IT",
-      "speed_mbps": 0.12,
-      "score": 24.76
+      "speed_mbps": 0.65,
+      "score": 28.84
     },
     {
-      "display_name": "NF003 249ms 0.1M TG4162ms 意大利|@ripaojiedian",
-      "proto": "ss",
-      "host": "202.50.253.63",
-      "tg_ok": true,
-      "tg_ms": 4162.8,
-      "port": "19999",
-      "tcp_ms": 249.5835999998235,
-      "real_ms": 602.2,
-      "country": "ZZ",
-      "country_name": "未知",
-      "speed_mbps": 0.07,
-      "score": 23.05
-    },
-    {
-      "display_name": "NF004 土耳其 205ms 0.1M TG4049ms 4Nika-352a3b4b44",
-      "proto": "vless",
-      "host": "snapp.ir",
-      "tg_ok": true,
-      "tg_ms": 4049.4,
-      "port": "443",
-      "tcp_ms": 205.46490000015183,
-      "real_ms": 1492.1,
-      "country": "TR",
-      "country_name": "土耳其",
-      "speed_mbps": 0.08,
-      "score": 25.18
-    },
-    {
-      "display_name": "NF005 IT 249ms 0.1M TG4386ms 🇮🇹IT_3|2.7MB/s",
+      "display_name": "NF002 IT 246ms 0.4M TG3792ms 🇮🇹IT_3|2.3MB/s",
       "proto": "ss",
       "host": "202.50.253.45",
       "tg_ok": true,
-      "tg_ms": 4386.4,
+      "tg_ms": 3792.3,
       "port": "19999",
-      "tcp_ms": 249.39520000043558,
-      "real_ms": 561.5,
+      "tcp_ms": 246.1131000018213,
+      "real_ms": 2642.0,
       "country": "IT",
       "country_name": "IT",
-      "speed_mbps": 0.08,
-      "score": 23.1
+      "speed_mbps": 0.36,
+      "score": 26.93
+    },
+    {
+      "display_name": "NF003 IT 260ms 0.1M TG3762ms 🇮🇹[www.v2nodes.com] ",
+      "proto": "ss",
+      "host": "202.50.253.18",
+      "tg_ok": true,
+      "tg_ms": 3762.7,
+      "port": "19999",
+      "tcp_ms": 260.83700000162935,
+      "real_ms": 705.7,
+      "country": "IT",
+      "country_name": "IT",
+      "speed_mbps": 0.11,
+      "score": 23.35
     }
   ]
 }
