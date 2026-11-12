@@ -5,21 +5,7 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: 'NF001 土耳其 189ms 0.1M TG4117ms 4Sarina-aedb9ab86e'
-    server: snapp.ir
-    port: 80
-    udp: true
-    skip-cert-verify: false
-    type: vmess
-    uuid: 'c83ce232-11b5-48eb-a7cd-48afb50d19f8'
-    alterId: 0
-    cipher: auto
-    network: ws
-    ws-opts:
-      path: '/cdn-vmess'
-      headers:
-        Host: tun.taktaz.com.tr
-  - name: 'NF002 IT 253ms 0.1M TG2506ms 🇮🇹 意大利 | ITA #1'
+  - name: 'NF001 IT 262ms 0.7M TG4303ms 🇮🇹IT_4|1.7MB/s'
     server: 202.50.253.72
     port: 19999
     udp: true
@@ -27,30 +13,16 @@ proxies:
     type: ss
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF003 249ms 0.1M TG4162ms 意大利|@ripaojiedian'
-    server: 202.50.253.63
+  - name: 'NF002 IT 246ms 0.4M TG3792ms 🇮🇹IT_3|2.3MB/s'
+    server: 202.50.253.45
     port: 19999
     udp: true
     skip-cert-verify: false
     type: ss
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF004 土耳其 205ms 0.1M TG4049ms 4Nika-352a3b4b44'
-    server: snapp.ir
-    port: 443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: 'cca31d4a-387d-4852-9c76-5b3eeb4d9d74'
-    tls: true
-    servername: tun.taktaz.com.tr
-    network: ws
-    ws-opts:
-      path: '/cdn-vless'
-      headers:
-        Host: tun.taktaz.com.tr
-  - name: 'NF005 IT 249ms 0.1M TG4386ms 🇮🇹IT_3|2.7MB/s'
-    server: 202.50.253.45
+  - name: 'NF003 IT 260ms 0.1M TG3762ms 🇮🇹[www.v2nodes.com] '
+    server: 202.50.253.18
     port: 19999
     udp: true
     skip-cert-verify: false
@@ -60,12 +32,12 @@ proxies:
 proxy-groups:
   - name: PROXY
     type: select
-    proxies: ['NF001 土耳其 189ms 0.1M TG4117ms 4Sarina-aedb9ab86e', 'NF002 IT 253ms 0.1M TG2506ms 🇮🇹 意大利 | ITA #1', 'NF003 249ms 0.1M TG4162ms 意大利|@ripaojiedian', 'NF004 土耳其 205ms 0.1M TG4049ms 4Nika-352a3b4b44', 'NF005 IT 249ms 0.1M TG4386ms 🇮🇹IT_3|2.7MB/s']
+    proxies: ['NF001 IT 262ms 0.7M TG4303ms 🇮🇹IT_4|1.7MB/s', 'NF002 IT 246ms 0.4M TG3792ms 🇮🇹IT_3|2.3MB/s', 'NF003 IT 260ms 0.1M TG3762ms 🇮🇹[www.v2nodes.com] ']
   - name: AUTO
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies: ['NF001 土耳其 189ms 0.1M TG4117ms 4Sarina-aedb9ab86e', 'NF002 IT 253ms 0.1M TG2506ms 🇮🇹 意大利 | ITA #1', 'NF003 249ms 0.1M TG4162ms 意大利|@ripaojiedian', 'NF004 土耳其 205ms 0.1M TG4049ms 4Nika-352a3b4b44', 'NF005 IT 249ms 0.1M TG4386ms 🇮🇹IT_3|2.7MB/s']
+    proxies: ['NF001 IT 262ms 0.7M TG4303ms 🇮🇹IT_4|1.7MB/s', 'NF002 IT 246ms 0.4M TG3792ms 🇮🇹IT_3|2.3MB/s', 'NF003 IT 260ms 0.1M TG3762ms 🇮🇹[www.v2nodes.com] ']
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
