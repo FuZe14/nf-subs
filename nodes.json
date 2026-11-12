@@ -1,88 +1,87 @@
 {
-  "generated_at": "20261112-022529",
+  "generated_at": "20261112-161705",
   "best": 5,
-  "all": 27,
+  "all": 30,
   "lines": 5,
   "meta": {
-    "tested": 2331,
-    "servable": 27
+    "tested": 1658,
+    "servable": 30
   },
   "countries": [
-    "IR",
     "IT",
-    "PL",
-    "TR"
+    "TR",
+    "ZZ"
   ],
   "nodes": [
     {
-      "display_name": "NF001 波兰 212ms 1.1M TG1446ms 🇵🇱 波兰 | POL 2",
-      "proto": "vless",
-      "host": "138.124.242.46",
+      "display_name": "NF001 土耳其 189ms 0.1M TG4117ms 4Sarina-aedb9ab86e",
+      "proto": "vmess",
+      "host": "snapp.ir",
       "tg_ok": true,
-      "tg_ms": 1446.4,
-      "port": "8443",
-      "tcp_ms": 212.32030000101076,
-      "real_ms": 1242.6,
-      "country": "PL",
-      "country_name": "波兰",
-      "speed_mbps": 1.14,
-      "score": 37.68
-    },
-    {
-      "display_name": "NF002 IT 248ms 1.0M TG6383ms 🇮🇹 意大利 | ITA #3",
-      "proto": "ss",
-      "host": "202.50.253.54",
-      "tg_ok": true,
-      "tg_ms": 6383.5,
-      "port": "19999",
-      "tcp_ms": 248.42740000167396,
-      "real_ms": 693.0,
-      "country": "IT",
-      "country_name": "IT",
-      "speed_mbps": 1.03,
-      "score": 31.61
-    },
-    {
-      "display_name": "NF003 土耳其 208ms 0.1M TG5977ms 🇹🇷TR_1|1005KB/s",
-      "proto": "trojan",
-      "host": "sclass-b1.catcat321.com",
-      "tg_ok": true,
-      "tg_ms": 5977.7,
-      "port": "20028",
-      "tcp_ms": 208.22299999417737,
-      "real_ms": 1896.2,
+      "tg_ms": 4117.6,
+      "port": 80,
+      "tcp_ms": 189.29340000067896,
+      "real_ms": 1292.3,
       "country": "TR",
       "country_name": "土耳其",
       "speed_mbps": 0.12,
-      "score": 24.96
+      "score": 26.5
     },
     {
-      "display_name": "NF004 伊朗 290ms 0.1M TG6892ms 4Sarina-e727473c0f",
-      "proto": "vmess",
-      "host": "sarma.ishizaki.ir",
-      "tg_ok": true,
-      "tg_ms": 6892.4,
-      "port": "6443",
-      "tcp_ms": 290.34929999761516,
-      "real_ms": 1661.5,
-      "country": "IR",
-      "country_name": "伊朗",
-      "speed_mbps": 0.06,
-      "score": 20.63
-    },
-    {
-      "display_name": "NF005 IT 244ms 0.4M TG5115ms 🇮🇹 意大利 | ITA #2",
+      "display_name": "NF002 IT 253ms 0.1M TG2506ms 🇮🇹 意大利 | ITA #1",
       "proto": "ss",
-      "host": "202.50.253.36",
+      "host": "202.50.253.72",
       "tg_ok": true,
-      "tg_ms": 5115.0,
+      "tg_ms": 2506.1,
       "port": "19999",
-      "tcp_ms": 244.20049999753246,
-      "real_ms": 568.9,
+      "tcp_ms": 253.7438999988808,
+      "real_ms": 697.7,
       "country": "IT",
       "country_name": "IT",
-      "speed_mbps": 0.39,
-      "score": 26.79
+      "speed_mbps": 0.12,
+      "score": 24.76
+    },
+    {
+      "display_name": "NF003 249ms 0.1M TG4162ms 意大利|@ripaojiedian",
+      "proto": "ss",
+      "host": "202.50.253.63",
+      "tg_ok": true,
+      "tg_ms": 4162.8,
+      "port": "19999",
+      "tcp_ms": 249.5835999998235,
+      "real_ms": 602.2,
+      "country": "ZZ",
+      "country_name": "未知",
+      "speed_mbps": 0.07,
+      "score": 23.05
+    },
+    {
+      "display_name": "NF004 土耳其 205ms 0.1M TG4049ms 4Nika-352a3b4b44",
+      "proto": "vless",
+      "host": "snapp.ir",
+      "tg_ok": true,
+      "tg_ms": 4049.4,
+      "port": "443",
+      "tcp_ms": 205.46490000015183,
+      "real_ms": 1492.1,
+      "country": "TR",
+      "country_name": "土耳其",
+      "speed_mbps": 0.08,
+      "score": 25.18
+    },
+    {
+      "display_name": "NF005 IT 249ms 0.1M TG4386ms 🇮🇹IT_3|2.7MB/s",
+      "proto": "ss",
+      "host": "202.50.253.45",
+      "tg_ok": true,
+      "tg_ms": 4386.4,
+      "port": "19999",
+      "tcp_ms": 249.39520000043558,
+      "real_ms": 561.5,
+      "country": "IT",
+      "country_name": "IT",
+      "speed_mbps": 0.08,
+      "score": 23.1
     }
   ]
 }
