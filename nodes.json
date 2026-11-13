@@ -1,30 +1,30 @@
 {
-  "generated_at": "20261113-211300",
+  "generated_at": "20261113-212908",
   "best": 1,
-  "all": 17,
-  "fast": 2,
+  "all": 24,
+  "fast": 0,
   "lines": 1,
   "meta": {
-    "tested": 2358,
-    "servable": 17
+    "tested": 2413,
+    "servable": 24
   },
   "countries": [
     "IT"
   ],
   "nodes": [
     {
-      "display_name": "NF001 IT 245ms 0.7M TG2324ms 🇮🇹IT_2|1.5MB/s",
+      "display_name": "NF001 IT 250ms 0.3M TG4683ms 🇮🇹 意大利 | ITA #7",
       "proto": "ss",
       "host": "202.50.253.81",
       "tg_ok": true,
-      "tg_ms": 2324.4,
+      "tg_ms": 4683.0,
       "port": "19999",
-      "tcp_ms": 245.37430000054883,
-      "real_ms": 660.7,
+      "tcp_ms": 250.40250000165543,
+      "real_ms": 539.0,
       "country": "IT",
       "country_name": "IT",
-      "speed_mbps": 0.65,
-      "score": 28.15
+      "speed_mbps": 0.33,
+      "score": 24.01
     }
   ]
 }
