@@ -5,15 +5,35 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: 'NF001 IT 265ms 0.6M TG2925ms 🇮🇹 意大利 | ITA #3'
-    server: 202.50.253.18
-    port: 19999
+  - name: 'NF001 俄罗斯 239ms 0.1M TG5858ms 4Nika-2c3205b554'
+    server: 'pl3.fox-lisa.ru'
+    port: 443
     udp: true
     skip-cert-verify: false
-    type: ss
-    cipher: 'aes-256-gcm'
-    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF002 俄罗斯 302ms 0.1M TG5043ms 4Kian-f57be4b005'
+    type: vless
+    uuid: 'ccb8ff48-3934-4250-b4ec-bb76b95d154f'
+    tls: true
+    servername: 'pl3.fox-lisa.ru'
+    reality-opts:
+      public-key: 'NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs'
+      short-id: 027af64166562b09
+    client-fingerprint: firefox
+    flow: 'xtls-rprx-vision'
+  - name: 'NF002 波兰 219ms 0.1M TG5133ms 4Sarina-ddb3eafa08'
+    server: 5.104.74.50
+    port: 8443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '690004b0-ccf2-4106-be08-80a90039a369'
+    tls: true
+    servername: 'uk-room07.filesnap.tech'
+    reality-opts:
+      public-key: '48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM'
+      short-id: dbef98744832b751
+    client-fingerprint: firefox
+    flow: 'xtls-rprx-vision'
+  - name: 'NF003 德国 283ms 0.1M TG3049ms 🇩🇪 德国 | DEU'
     server: 178.214.125.1
     port: 443
     udp: true
@@ -25,41 +45,31 @@ proxies:
     reality-opts:
       public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
       short-id: 6172ba9cffe9c22f
-    client-fingerprint: chrome
+    client-fingerprint: edge
     flow: 'xtls-rprx-vision'
-  - name: 'NF003 IT 259ms 0.3M TG3650ms 🇮🇹 意大利 | ITA #6'
-    server: 202.50.253.63
-    port: 19999
+  - name: 'NF004 LT 245ms 0.2M TG5640ms 4Nika-d997d385f0'
+    server: 84.32.51.250
+    port: 443
     udp: true
     skip-cert-verify: false
-    type: ss
-    cipher: 'aes-256-gcm'
-    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF004 IT 278ms 0.5M TG4362ms 🇮🇹 意大利 | ITA #8'
-    server: 202.50.253.54
-    port: 19999
-    udp: true
-    skip-cert-verify: false
-    type: ss
-    cipher: 'aes-256-gcm'
-    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF005 IT 251ms 0.5M TG4347ms 🇮🇹[www.v2nodes.com] '
-    server: 202.50.253.36
-    port: 19999
-    udp: true
-    skip-cert-verify: false
-    type: ss
-    cipher: 'aes-256-gcm'
-    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+    type: vless
+    uuid: 'a94d8907-6bbb-4570-80d3-dfdc314c1e7a'
+    tls: true
+    servername: lt.t1n2.com
+    reality-opts:
+      public-key: awc2TGvraH8xMqfsAnNQ7JMQ_uUF8gW5auvU2gQfjR0
+      short-id: b31de5bead2ebf3c
+    client-fingerprint: firefox
+    flow: 'xtls-rprx-vision'
 proxy-groups:
   - name: PROXY
     type: select
-    proxies: ['NF001 IT 265ms 0.6M TG2925ms 🇮🇹 意大利 | ITA #3', 'NF002 俄罗斯 302ms 0.1M TG5043ms 4Kian-f57be4b005', 'NF003 IT 259ms 0.3M TG3650ms 🇮🇹 意大利 | ITA #6', 'NF004 IT 278ms 0.5M TG4362ms 🇮🇹 意大利 | ITA #8', 'NF005 IT 251ms 0.5M TG4347ms 🇮🇹[www.v2nodes.com] ']
+    proxies: ['NF001 俄罗斯 239ms 0.1M TG5858ms 4Nika-2c3205b554', 'NF002 波兰 219ms 0.1M TG5133ms 4Sarina-ddb3eafa08', 'NF003 德国 283ms 0.1M TG3049ms 🇩🇪 德国 | DEU', 'NF004 LT 245ms 0.2M TG5640ms 4Nika-d997d385f0']
   - name: AUTO
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies: ['NF001 IT 265ms 0.6M TG2925ms 🇮🇹 意大利 | ITA #3', 'NF002 俄罗斯 302ms 0.1M TG5043ms 4Kian-f57be4b005', 'NF003 IT 259ms 0.3M TG3650ms 🇮🇹 意大利 | ITA #6', 'NF004 IT 278ms 0.5M TG4362ms 🇮🇹 意大利 | ITA #8', 'NF005 IT 251ms 0.5M TG4347ms 🇮🇹[www.v2nodes.com] ']
+    proxies: ['NF001 俄罗斯 239ms 0.1M TG5858ms 4Nika-2c3205b554', 'NF002 波兰 219ms 0.1M TG5133ms 4Sarina-ddb3eafa08', 'NF003 德国 283ms 0.1M TG3049ms 🇩🇪 德国 | DEU', 'NF004 LT 245ms 0.2M TG5640ms 4Nika-d997d385f0']
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
