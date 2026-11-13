@@ -5,43 +5,37 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: 'NF001 俄罗斯 227ms 0.1M TG2717ms 4Nika-4f99bc914b'
-    server: 94.183.164.96
-    port: 8443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '549766c3-fa5f-471e-8031-ffc1f8d5064f'
-    tls: true
-    servername: 'tgnl.blog-forme.ru'
-    reality-opts:
-      public-key: qkwh_hd7pYmvQcABVy4IHMF9l_RtAOqqFqRhkRBVyQI
-      short-id: e114741e080317d4
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
-  - name: 'NF002 荷兰 209ms 0.1M TG6404ms 4Mohsen-f0454061b6'
-    server: hollandlanzerotte.xyz
-    port: 443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '50a87e21-f0e2-4b53-a787-91adfe748f63'
-    tls: true
-    servername: hollandlanzerotte.xyz
-    reality-opts:
-      public-key: 'EEL-yDPBfol_fiEEM8Pd0zue7SSz5MtZlXEePVak2jc'
-      short-id: ''
-    client-fingerprint: ios
-    flow: 'xtls-rprx-vision'
-  - name: 'NF003 IT 252ms 0.2M TG2253ms 🇮🇹[www.v2nodes.com] '
-    server: 202.50.253.36
+  - name: 'NF001 IT 265ms 0.6M TG2925ms 🇮🇹 意大利 | ITA #3'
+    server: 202.50.253.18
     port: 19999
     udp: true
     skip-cert-verify: false
     type: ss
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF004 IT 262ms 0.2M TG2501ms 🇮🇹 意大利 | ITA #8'
+  - name: 'NF002 俄罗斯 302ms 0.1M TG5043ms 4Kian-f57be4b005'
+    server: 178.214.125.1
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '3f3160a0-747d-4fed-bf3d-4d884bfa964d'
+    tls: true
+    servername: conf.emaar.ru
+    reality-opts:
+      public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
+      short-id: 6172ba9cffe9c22f
+    client-fingerprint: chrome
+    flow: 'xtls-rprx-vision'
+  - name: 'NF003 IT 259ms 0.3M TG3650ms 🇮🇹 意大利 | ITA #6'
+    server: 202.50.253.63
+    port: 19999
+    udp: true
+    skip-cert-verify: false
+    type: ss
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+  - name: 'NF004 IT 278ms 0.5M TG4362ms 🇮🇹 意大利 | ITA #8'
     server: 202.50.253.54
     port: 19999
     udp: true
@@ -49,8 +43,8 @@ proxies:
     type: ss
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF005 IT 267ms 0.5M TG4765ms 🇮🇹 意大利 | ITA #3'
-    server: 202.50.253.18
+  - name: 'NF005 IT 251ms 0.5M TG4347ms 🇮🇹[www.v2nodes.com] '
+    server: 202.50.253.36
     port: 19999
     udp: true
     skip-cert-verify: false
@@ -60,12 +54,12 @@ proxies:
 proxy-groups:
   - name: PROXY
     type: select
-    proxies: ['NF001 俄罗斯 227ms 0.1M TG2717ms 4Nika-4f99bc914b', 'NF002 荷兰 209ms 0.1M TG6404ms 4Mohsen-f0454061b6', 'NF003 IT 252ms 0.2M TG2253ms 🇮🇹[www.v2nodes.com] ', 'NF004 IT 262ms 0.2M TG2501ms 🇮🇹 意大利 | ITA #8', 'NF005 IT 267ms 0.5M TG4765ms 🇮🇹 意大利 | ITA #3']
+    proxies: ['NF001 IT 265ms 0.6M TG2925ms 🇮🇹 意大利 | ITA #3', 'NF002 俄罗斯 302ms 0.1M TG5043ms 4Kian-f57be4b005', 'NF003 IT 259ms 0.3M TG3650ms 🇮🇹 意大利 | ITA #6', 'NF004 IT 278ms 0.5M TG4362ms 🇮🇹 意大利 | ITA #8', 'NF005 IT 251ms 0.5M TG4347ms 🇮🇹[www.v2nodes.com] ']
   - name: AUTO
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies: ['NF001 俄罗斯 227ms 0.1M TG2717ms 4Nika-4f99bc914b', 'NF002 荷兰 209ms 0.1M TG6404ms 4Mohsen-f0454061b6', 'NF003 IT 252ms 0.2M TG2253ms 🇮🇹[www.v2nodes.com] ', 'NF004 IT 262ms 0.2M TG2501ms 🇮🇹 意大利 | ITA #8', 'NF005 IT 267ms 0.5M TG4765ms 🇮🇹 意大利 | ITA #3']
+    proxies: ['NF001 IT 265ms 0.6M TG2925ms 🇮🇹 意大利 | ITA #3', 'NF002 俄罗斯 302ms 0.1M TG5043ms 4Kian-f57be4b005', 'NF003 IT 259ms 0.3M TG3650ms 🇮🇹 意大利 | ITA #6', 'NF004 IT 278ms 0.5M TG4362ms 🇮🇹 意大利 | ITA #8', 'NF005 IT 251ms 0.5M TG4347ms 🇮🇹[www.v2nodes.com] ']
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
