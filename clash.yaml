@@ -5,7 +5,7 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: 'NF001 IT 245ms 0.7M TG2324ms 🇮🇹IT_2|1.5MB/s'
+  - name: 'NF001 IT 250ms 0.3M TG4683ms 🇮🇹 意大利 | ITA #7'
     server: 202.50.253.81
     port: 19999
     udp: true
@@ -16,12 +16,12 @@ proxies:
 proxy-groups:
   - name: PROXY
     type: select
-    proxies: ['NF001 IT 245ms 0.7M TG2324ms 🇮🇹IT_2|1.5MB/s']
+    proxies: ['NF001 IT 250ms 0.3M TG4683ms 🇮🇹 意大利 | ITA #7']
   - name: AUTO
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies: ['NF001 IT 245ms 0.7M TG2324ms 🇮🇹IT_2|1.5MB/s']
+    proxies: ['NF001 IT 250ms 0.3M TG4683ms 🇮🇹 意大利 | ITA #7']
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
