@@ -25,23 +25,28 @@
     {
       "type": "shadowsocks",
       "tag": "nf001",
-      "server": "202.50.253.72",
+      "server": "202.50.253.81",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "shadowsocks",
+      "type": "vmess",
       "tag": "nf002",
-      "server": "202.50.253.45",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "server": "16.171.159.75",
+      "server_port": 80,
+      "uuid": "5b2e2e5f-1302-4d65-ab39-27f6f0ca5562",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     },
     {
       "type": "shadowsocks",
       "tag": "nf003",
-      "server": "202.50.253.18",
+      "server": "202.50.253.36",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
