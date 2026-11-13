@@ -5,15 +5,116 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: 'NF001 IT 251ms 0.3M TG6871ms 🇮🇹 意大利 | ITA #8'
-    server: 202.50.253.36
+  - name: 'NF001 中国 42ms 2.4M TG2410ms 🏳[www.v2nodes.com] t'
+    server: 'sclass-b1.catcat321.com'
+    port: 20027
+    udp: true
+    skip-cert-verify: true
+    type: trojan
+    password: 'd7563108-615c-4338-a7bd-77f359869a4a'
+    sni: hk.catxstar.com
+  - name: 'NF002 土耳其 43ms 0.3M TG2452ms 🇹🇷[www.v2nodes.com] '
+    server: 'sclass-b1.catcat321.com'
+    port: 20028
+    udp: true
+    skip-cert-verify: false
+    type: trojan
+    password: 'd7563108-615c-4338-a7bd-77f359869a4a'
+    sni: hk.catxstar.com
+  - name: 'NF003 IT 268ms 0.3M TG3165ms 🇮🇹 意大利 | ITA #3'
+    server: 202.50.253.63
     port: 19999
     udp: true
     skip-cert-verify: false
     type: ss
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF002 德国 286ms 0.2M TG5351ms 🇩🇪 德国 | DEU'
+  - name: 'NF004 俄罗斯 246ms 0.7M TG1801ms 4Nika-4f99bc914b'
+    server: 94.183.164.96
+    port: 8443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '549766c3-fa5f-471e-8031-ffc1f8d5064f'
+    tls: true
+    servername: 'tgnl.blog-forme.ru'
+    reality-opts:
+      public-key: qkwh_hd7pYmvQcABVy4IHMF9l_RtAOqqFqRhkRBVyQI
+      short-id: e114741e080317d4
+    client-fingerprint: firefox
+    flow: 'xtls-rprx-vision'
+  - name: 'NF005 尼日利亚 38ms 0.2M TG5100ms 🇳🇬[www.v2nodes.com] '
+    server: 'sclass-01.catcat321.com'
+    port: 20103
+    udp: true
+    skip-cert-verify: true
+    type: trojan
+    password: 'd7563108-615c-4338-a7bd-77f359869a4a'
+    sni: hk.catxstar.com
+  - name: 'NF006 伊朗 224ms 1.5M TG4814ms @tootffarangi🍓'
+    server: n1.topingr.ir
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '84be02cf-c5c5-4b33-ba26-31b5f8320033'
+    tls: true
+    servername: cdn2.zovip2.ir
+    network: ws
+    ws-opts:
+      path: /api/v3/pulse
+      headers:
+        Host: cdn2.zovip2.ir
+  - name: 'NF007 德国 201ms 0.3M TG5093ms 4Kian-dcced0deb7'
+    server: 162.55.242.208
+    port: 2096
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '7b03cd1c-8734-4051-8de6-de6335182f56'
+    tls: true
+    servername: www.cloudflare.com
+    reality-opts:
+      public-key: '4-STTPXh4hoyInAny-P08XYPyQDEh-GYHQ1LMbjL7yA'
+      short-id: f362c741c17f477e
+    client-fingerprint: chrome
+  - name: 'NF008 新加坡 182ms 0.1M TG3664ms 4Kian-674341a24f'
+    server: zfapi.zalolink.com
+    port: 46957
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '57beeeb0-03fc-4fc9-94da-7604488a7134'
+    tls: true
+    servername: psstatic.cdn.bcebos.com
+    reality-opts:
+      public-key: '1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI'
+      short-id: 8f6683a234d3
+    client-fingerprint: safari
+    flow: 'xtls-rprx-vision'
+  - name: 'NF009 EE 222ms 0.2M TG2290ms 🆔ar14n24b 🔒 VL-TCP- '
+    server: 201.4.73.21
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '664f65f4-33b3-43a3-b9e5-68192d1d428e'
+    tls: true
+    servername: 'granite-orchard.cdn.cachefleet.com'
+    reality-opts:
+      public-key: ql7l6Vw5DFt5ZJeGE6ZxsM1kcIvZabxQVr8zkoPJoUE
+      short-id: 8691df964f0bebcb
+    client-fingerprint: firefox
+    flow: 'xtls-rprx-vision'
+  - name: 'NF010 IT 253ms 0.7M TG6483ms 🇮🇹 意大利 | ITA #5'
+    server: 202.50.253.99
+    port: 19999
+    udp: true
+    skip-cert-verify: false
+    type: ss
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+  - name: 'NF011 俄罗斯 300ms 0.3M TG3204ms 4Kian-f57be4b005'
     server: 178.214.125.1
     port: 443
     udp: true
@@ -25,17 +126,9 @@ proxies:
     reality-opts:
       public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
       short-id: 6172ba9cffe9c22f
-    client-fingerprint: edge
+    client-fingerprint: chrome
     flow: 'xtls-rprx-vision'
-  - name: 'NF003 IT 270ms 0.2M TG2121ms 🇮🇹 意大利 | ITA #3'
-    server: 202.50.253.63
-    port: 19999
-    udp: true
-    skip-cert-verify: false
-    type: ss
-    cipher: 'aes-256-gcm'
-    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF004 IT 259ms 0.3M TG3416ms 🇮🇹 意大利 | ITA #7'
+  - name: 'NF012 IT 269ms 0.5M TG7438ms 🇮🇹 意大利 | ITA #7'
     server: 202.50.253.54
     port: 19999
     udp: true
@@ -43,8 +136,8 @@ proxies:
     type: ss
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF005 IT 264ms 0.3M TG2873ms 🇮🇹 意大利 | ITA #2'
-    server: 202.50.253.72
+  - name: 'NF013 IT 275ms 0.5M TG3144ms 🇮🇹 意大利 | ITA #6'
+    server: 202.50.253.18
     port: 19999
     udp: true
     skip-cert-verify: false
@@ -54,12 +147,12 @@ proxies:
 proxy-groups:
   - name: PROXY
     type: select
-    proxies: ['NF001 IT 251ms 0.3M TG6871ms 🇮🇹 意大利 | ITA #8', 'NF002 德国 286ms 0.2M TG5351ms 🇩🇪 德国 | DEU', 'NF003 IT 270ms 0.2M TG2121ms 🇮🇹 意大利 | ITA #3', 'NF004 IT 259ms 0.3M TG3416ms 🇮🇹 意大利 | ITA #7', 'NF005 IT 264ms 0.3M TG2873ms 🇮🇹 意大利 | ITA #2']
+    proxies: ['NF001 中国 42ms 2.4M TG2410ms 🏳[www.v2nodes.com] t', 'NF002 土耳其 43ms 0.3M TG2452ms 🇹🇷[www.v2nodes.com] ', 'NF003 IT 268ms 0.3M TG3165ms 🇮🇹 意大利 | ITA #3', 'NF004 俄罗斯 246ms 0.7M TG1801ms 4Nika-4f99bc914b', 'NF005 尼日利亚 38ms 0.2M TG5100ms 🇳🇬[www.v2nodes.com] ', 'NF006 伊朗 224ms 1.5M TG4814ms @tootffarangi🍓', 'NF007 德国 201ms 0.3M TG5093ms 4Kian-dcced0deb7', 'NF008 新加坡 182ms 0.1M TG3664ms 4Kian-674341a24f', 'NF009 EE 222ms 0.2M TG2290ms 🆔ar14n24b 🔒 VL-TCP- ', 'NF010 IT 253ms 0.7M TG6483ms 🇮🇹 意大利 | ITA #5', 'NF011 俄罗斯 300ms 0.3M TG3204ms 4Kian-f57be4b005', 'NF012 IT 269ms 0.5M TG7438ms 🇮🇹 意大利 | ITA #7', 'NF013 IT 275ms 0.5M TG3144ms 🇮🇹 意大利 | ITA #6']
   - name: AUTO
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies: ['NF001 IT 251ms 0.3M TG6871ms 🇮🇹 意大利 | ITA #8', 'NF002 德国 286ms 0.2M TG5351ms 🇩🇪 德国 | DEU', 'NF003 IT 270ms 0.2M TG2121ms 🇮🇹 意大利 | ITA #3', 'NF004 IT 259ms 0.3M TG3416ms 🇮🇹 意大利 | ITA #7', 'NF005 IT 264ms 0.3M TG2873ms 🇮🇹 意大利 | ITA #2']
+    proxies: ['NF001 中国 42ms 2.4M TG2410ms 🏳[www.v2nodes.com] t', 'NF002 土耳其 43ms 0.3M TG2452ms 🇹🇷[www.v2nodes.com] ', 'NF003 IT 268ms 0.3M TG3165ms 🇮🇹 意大利 | ITA #3', 'NF004 俄罗斯 246ms 0.7M TG1801ms 4Nika-4f99bc914b', 'NF005 尼日利亚 38ms 0.2M TG5100ms 🇳🇬[www.v2nodes.com] ', 'NF006 伊朗 224ms 1.5M TG4814ms @tootffarangi🍓', 'NF007 德国 201ms 0.3M TG5093ms 4Kian-dcced0deb7', 'NF008 新加坡 182ms 0.1M TG3664ms 4Kian-674341a24f', 'NF009 EE 222ms 0.2M TG2290ms 🆔ar14n24b 🔒 VL-TCP- ', 'NF010 IT 253ms 0.7M TG6483ms 🇮🇹 意大利 | ITA #5', 'NF011 俄罗斯 300ms 0.3M TG3204ms 4Kian-f57be4b005', 'NF012 IT 269ms 0.5M TG7438ms 🇮🇹 意大利 | ITA #7', 'NF013 IT 275ms 0.5M TG3144ms 🇮🇹 意大利 | ITA #6']
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
