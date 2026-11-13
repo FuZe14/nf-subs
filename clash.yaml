@@ -5,71 +5,87 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: 'NF001 俄罗斯 239ms 0.1M TG5858ms 4Nika-2c3205b554'
-    server: 'pl3.fox-lisa.ru'
+  - name: 'NF001 荷兰 219ms 1.0M TG4585ms 4Mohsen-f0454061b6'
+    server: hollandlanzerotte.xyz
     port: 443
     udp: true
     skip-cert-verify: false
     type: vless
-    uuid: 'ccb8ff48-3934-4250-b4ec-bb76b95d154f'
+    uuid: '50a87e21-f0e2-4b53-a787-91adfe748f63'
     tls: true
-    servername: 'pl3.fox-lisa.ru'
+    servername: hollandlanzerotte.xyz
     reality-opts:
-      public-key: 'NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs'
-      short-id: 027af64166562b09
-    client-fingerprint: firefox
+      public-key: 'EEL-yDPBfol_fiEEM8Pd0zue7SSz5MtZlXEePVak2jc'
+      short-id: ''
+    client-fingerprint: ios
     flow: 'xtls-rprx-vision'
-  - name: 'NF002 波兰 219ms 0.1M TG5133ms 4Sarina-ddb3eafa08'
-    server: 5.104.74.50
+  - name: TG05 IT 0.1M NF002 IT 269ms 0.1
+    server: 202.50.253.81
+    port: 19999
+    udp: true
+    skip-cert-verify: false
+    type: ss
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+  - name: TG06 德国 0.6M NF003 德国 268ms 0.6
+    server: 9.247.174.134
     port: 8443
     udp: true
     skip-cert-verify: false
     type: vless
-    uuid: '690004b0-ccf2-4106-be08-80a90039a369'
+    uuid: '585a421d-d782-4420-912e-dd58ff5966d7'
     tls: true
-    servername: 'uk-room07.filesnap.tech'
+    servername: play.googleapis.com
     reality-opts:
-      public-key: '48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM'
-      short-id: dbef98744832b751
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
-  - name: 'NF003 德国 283ms 0.1M TG3049ms 🇩🇪 德国 | DEU'
-    server: 178.214.125.1
-    port: 443
+      public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
+      short-id: 974f7f8f
+    client-fingerprint: chrome
+  - name: TG04 IT 0.1M NF004 IT 260ms 0.1
+    server: 202.50.253.36
+    port: 19999
+    udp: true
+    skip-cert-verify: false
+    type: ss
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+  - name: TG02 德国 0.2M NF005 德国 222ms 0.2
+    server: 162.55.242.208
+    port: 2096
     udp: true
     skip-cert-verify: false
     type: vless
-    uuid: '3f3160a0-747d-4fed-bf3d-4d884bfa964d'
+    uuid: '7b03cd1c-8734-4051-8de6-de6335182f56'
     tls: true
-    servername: conf.emaar.ru
+    servername: www.cloudflare.com
     reality-opts:
-      public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
-      short-id: 6172ba9cffe9c22f
-    client-fingerprint: edge
-    flow: 'xtls-rprx-vision'
-  - name: 'NF004 LT 245ms 0.2M TG5640ms 4Nika-d997d385f0'
-    server: 84.32.51.250
-    port: 443
+      public-key: '4-STTPXh4hoyInAny-P08XYPyQDEh-GYHQ1LMbjL7yA'
+      short-id: f362c741c17f477e
+    client-fingerprint: chrome
+  - name: TG01 IT 0.3M NF006 IT 279ms 0.3
+    server: 202.50.253.63
+    port: 19999
     udp: true
     skip-cert-verify: false
-    type: vless
-    uuid: 'a94d8907-6bbb-4570-80d3-dfdc314c1e7a'
-    tls: true
-    servername: lt.t1n2.com
-    reality-opts:
-      public-key: awc2TGvraH8xMqfsAnNQ7JMQ_uUF8gW5auvU2gQfjR0
-      short-id: b31de5bead2ebf3c
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
+    type: ss
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+  - name: 'NF007 IT 261ms 0.3M TG3136ms 🇮🇹 意大利 | ITA #6'
+    server: 202.50.253.18
+    port: 19999
+    udp: true
+    skip-cert-verify: false
+    type: ss
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
 proxy-groups:
   - name: PROXY
     type: select
-    proxies: ['NF001 俄罗斯 239ms 0.1M TG5858ms 4Nika-2c3205b554', 'NF002 波兰 219ms 0.1M TG5133ms 4Sarina-ddb3eafa08', 'NF003 德国 283ms 0.1M TG3049ms 🇩🇪 德国 | DEU', 'NF004 LT 245ms 0.2M TG5640ms 4Nika-d997d385f0']
+    proxies: ['NF001 荷兰 219ms 1.0M TG4585ms 4Mohsen-f0454061b6', TG05 IT 0.1M NF002 IT 269ms 0.1, TG06 德国 0.6M NF003 德国 268ms 0.6, TG04 IT 0.1M NF004 IT 260ms 0.1, TG02 德国 0.2M NF005 德国 222ms 0.2, TG01 IT 0.3M NF006 IT 279ms 0.3, 'NF007 IT 261ms 0.3M TG3136ms 🇮🇹 意大利 | ITA #6']
   - name: AUTO
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies: ['NF001 俄罗斯 239ms 0.1M TG5858ms 4Nika-2c3205b554', 'NF002 波兰 219ms 0.1M TG5133ms 4Sarina-ddb3eafa08', 'NF003 德国 283ms 0.1M TG3049ms 🇩🇪 德国 | DEU', 'NF004 LT 245ms 0.2M TG5640ms 4Nika-d997d385f0']
+    proxies: ['NF001 荷兰 219ms 1.0M TG4585ms 4Mohsen-f0454061b6', TG05 IT 0.1M NF002 IT 269ms 0.1, TG06 德国 0.6M NF003 德国 268ms 0.6, TG04 IT 0.1M NF004 IT 260ms 0.1, TG02 德国 0.2M NF005 德国 222ms 0.2, TG01 IT 0.3M NF006 IT 279ms 0.3, 'NF007 IT 261ms 0.3M TG3136ms 🇮🇹 意大利 | ITA #6']
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
