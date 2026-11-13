@@ -1,58 +1,57 @@
 {
-  "generated_at": "20261113-111117",
+  "generated_at": "20261113-163437",
   "best": 3,
-  "all": 29,
+  "all": 26,
   "lines": 3,
   "meta": {
-    "tested": 1608,
-    "servable": 29
+    "tested": 1618,
+    "servable": 26
   },
   "countries": [
-    "IT",
-    "SE"
+    "IT"
   ],
   "nodes": [
     {
-      "display_name": "NF001 IT 242ms 2.1M TG2352ms NF001 IT 242ms 2.1M ",
+      "display_name": "NF001 IT 239ms 0.9M TG5163ms 🇮🇹 意大利 | ITA #5",
       "proto": "ss",
-      "host": "202.50.253.81",
+      "host": "202.50.253.99",
       "tg_ok": true,
-      "tg_ms": 2352.6,
+      "tg_ms": 5163.8,
       "port": "19999",
-      "tcp_ms": 242.93480000000045,
-      "real_ms": 582.1,
+      "tcp_ms": 239.78530000022147,
+      "real_ms": 598.8,
       "country": "IT",
       "country_name": "IT",
-      "speed_mbps": 2.06,
-      "score": 38.9
+      "speed_mbps": 0.86,
+      "score": 31.09
     },
     {
-      "display_name": "NF002 瑞典 223ms 0.2M TG3065ms NF002 瑞典 223ms 0.2M ",
-      "proto": "vmess",
-      "host": "16.171.159.75",
-      "tg_ok": true,
-      "tg_ms": 3065.2,
-      "port": 80,
-      "tcp_ms": 223.39990000000398,
-      "real_ms": 2132.0,
-      "country": "SE",
-      "country_name": "瑞典",
-      "speed_mbps": 0.23,
-      "score": 26.89
-    },
-    {
-      "display_name": "NF003 IT 258ms 0.9M TG2826ms NF003 IT 258ms 0.9M ",
+      "display_name": "NF002 IT 249ms 0.5M TG3161ms 🇮🇹[www.v2nodes.com] ",
       "proto": "ss",
       "host": "202.50.253.36",
       "tg_ok": true,
-      "tg_ms": 2826.3,
+      "tg_ms": 3161.4,
       "port": "19999",
-      "tcp_ms": 258.64350000000513,
-      "real_ms": 560.1,
+      "tcp_ms": 249.21529999846825,
+      "real_ms": 611.8,
       "country": "IT",
       "country_name": "IT",
-      "speed_mbps": 0.91,
-      "score": 31.92
+      "speed_mbps": 0.48,
+      "score": 28.44
+    },
+    {
+      "display_name": "NF003 IT 244ms 0.1M TG3098ms 🇮🇹IT_2|1.5MB/s",
+      "proto": "ss",
+      "host": "202.50.253.81",
+      "tg_ok": true,
+      "tg_ms": 3098.9,
+      "port": "19999",
+      "tcp_ms": 244.25139999948442,
+      "real_ms": 588.6,
+      "country": "IT",
+      "country_name": "IT",
+      "speed_mbps": 0.11,
+      "score": 24.44
     }
   ]
 }
