@@ -5,21 +5,21 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: 'NF001 荷兰 219ms 1.0M TG4585ms 4Mohsen-f0454061b6'
-    server: hollandlanzerotte.xyz
-    port: 443
+  - name: WEB04 新加坡 0.1M NF001 新加坡 60ms 0.1
+    server: zfapi.zalolink.com
+    port: 46957
     udp: true
     skip-cert-verify: false
     type: vless
-    uuid: '50a87e21-f0e2-4b53-a787-91adfe748f63'
+    uuid: '57beeeb0-03fc-4fc9-94da-7604488a7134'
     tls: true
-    servername: hollandlanzerotte.xyz
+    servername: psstatic.cdn.bcebos.com
     reality-opts:
-      public-key: 'EEL-yDPBfol_fiEEM8Pd0zue7SSz5MtZlXEePVak2jc'
-      short-id: ''
-    client-fingerprint: ios
+      public-key: '1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI'
+      short-id: 8f6683a234d3
+    client-fingerprint: safari
     flow: 'xtls-rprx-vision'
-  - name: TG05 IT 0.1M NF002 IT 269ms 0.1
+  - name: TG03 IT 0.6M NF002 IT 248ms 0.6
     server: 202.50.253.81
     port: 19999
     udp: true
@@ -27,7 +27,49 @@ proxies:
     type: ss
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: TG06 德国 0.6M NF003 德国 268ms 0.6
+  - name: 'NF003 法国 213ms 0.3M TG1590ms 4FreeIran-a75f8a5610'
+    server: edge.bookmai.com
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: 'b9bfa54d-bc44-4592-a6d6-89a9665d286f'
+    tls: true
+    servername: 'mother-earth.fyi'
+    reality-opts:
+      public-key: 'SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc'
+      short-id: ''
+    client-fingerprint: edge
+    flow: 'xtls-rprx-vision'
+  - name: TG01 俄罗斯 0.3M NF004 俄罗斯 209ms 0.
+    server: 94.183.164.96
+    port: 8443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '549766c3-fa5f-471e-8031-ffc1f8d5064f'
+    tls: true
+    servername: 'tgnl.blog-forme.ru'
+    reality-opts:
+      public-key: qkwh_hd7pYmvQcABVy4IHMF9l_RtAOqqFqRhkRBVyQI
+      short-id: e114741e080317d4
+    client-fingerprint: firefox
+    flow: 'xtls-rprx-vision'
+  - name: 'NF005 美国 223ms 0.0M TG4139ms 4Nika-28739c35ef'
+    server: 188.114.99.137
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '4b50270b-5caf-4c34-b3da-17b4525604a6'
+    tls: true
+    servername: cryptoventura.online
+    network: ws
+    ws-opts:
+      path: /api/de3/live
+      headers:
+        Host: cryptoventura.online
+  - name: 'NF006 德国 255ms 0.8M TG4186ms 4FreeIran-c320962833'
     server: 9.247.174.134
     port: 8443
     udp: true
@@ -40,37 +82,44 @@ proxies:
       public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
       short-id: 974f7f8f
     client-fingerprint: chrome
-  - name: TG04 IT 0.1M NF004 IT 260ms 0.1
-    server: 202.50.253.36
+  - name: WEB07 IT 0.4M NF007 IT 258ms 0.4
+    server: 202.50.253.72
     port: 19999
     udp: true
     skip-cert-verify: false
     type: ss
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: TG02 德国 0.2M NF005 德国 222ms 0.2
-    server: 162.55.242.208
-    port: 2096
+  - name: TG02 俄罗斯 0.2M NF008 俄罗斯 245ms 0.
+    server: 5.35.44.218
+    port: 8443
     udp: true
     skip-cert-verify: false
     type: vless
-    uuid: '7b03cd1c-8734-4051-8de6-de6335182f56'
+    uuid: '549766c3-fa5f-471e-8031-ffc1f8d5064f'
     tls: true
-    servername: www.cloudflare.com
+    servername: 'nl17.blog-forme.ru'
     reality-opts:
-      public-key: '4-STTPXh4hoyInAny-P08XYPyQDEh-GYHQ1LMbjL7yA'
-      short-id: f362c741c17f477e
-    client-fingerprint: chrome
-  - name: TG01 IT 0.3M NF006 IT 279ms 0.3
-    server: 202.50.253.63
-    port: 19999
+      public-key: 'bxCIwojWO_edyWgi_QS-BOEnbX-prYu5B1hN_7Skgnc'
+      short-id: b6efdae4d829da97
+    client-fingerprint: firefox
+    flow: 'xtls-rprx-vision'
+  - name: 'NF009 德国 297ms 0.1M TG5192ms 🇩🇪 德国 | DEU'
+    server: 178.214.125.1
+    port: 443
     udp: true
     skip-cert-verify: false
-    type: ss
-    cipher: 'aes-256-gcm'
-    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF007 IT 261ms 0.3M TG3136ms 🇮🇹 意大利 | ITA #6'
-    server: 202.50.253.18
+    type: vless
+    uuid: '3f3160a0-747d-4fed-bf3d-4d884bfa964d'
+    tls: true
+    servername: conf.emaar.ru
+    reality-opts:
+      public-key: ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY
+      short-id: 6172ba9cffe9c22f
+    client-fingerprint: edge
+    flow: 'xtls-rprx-vision'
+  - name: TG05 IT 0.1M NF010 IT 264ms 0.1
+    server: 202.50.253.36
     port: 19999
     udp: true
     skip-cert-verify: false
@@ -80,12 +129,12 @@ proxies:
 proxy-groups:
   - name: PROXY
     type: select
-    proxies: ['NF001 荷兰 219ms 1.0M TG4585ms 4Mohsen-f0454061b6', TG05 IT 0.1M NF002 IT 269ms 0.1, TG06 德国 0.6M NF003 德国 268ms 0.6, TG04 IT 0.1M NF004 IT 260ms 0.1, TG02 德国 0.2M NF005 德国 222ms 0.2, TG01 IT 0.3M NF006 IT 279ms 0.3, 'NF007 IT 261ms 0.3M TG3136ms 🇮🇹 意大利 | ITA #6']
+    proxies: [WEB04 新加坡 0.1M NF001 新加坡 60ms 0.1, TG03 IT 0.6M NF002 IT 248ms 0.6, 'NF003 法国 213ms 0.3M TG1590ms 4FreeIran-a75f8a5610', TG01 俄罗斯 0.3M NF004 俄罗斯 209ms 0., 'NF005 美国 223ms 0.0M TG4139ms 4Nika-28739c35ef', 'NF006 德国 255ms 0.8M TG4186ms 4FreeIran-c320962833', WEB07 IT 0.4M NF007 IT 258ms 0.4, TG02 俄罗斯 0.2M NF008 俄罗斯 245ms 0., 'NF009 德国 297ms 0.1M TG5192ms 🇩🇪 德国 | DEU', TG05 IT 0.1M NF010 IT 264ms 0.1]
   - name: AUTO
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies: ['NF001 荷兰 219ms 1.0M TG4585ms 4Mohsen-f0454061b6', TG05 IT 0.1M NF002 IT 269ms 0.1, TG06 德国 0.6M NF003 德国 268ms 0.6, TG04 IT 0.1M NF004 IT 260ms 0.1, TG02 德国 0.2M NF005 德国 222ms 0.2, TG01 IT 0.3M NF006 IT 279ms 0.3, 'NF007 IT 261ms 0.3M TG3136ms 🇮🇹 意大利 | ITA #6']
+    proxies: [WEB04 新加坡 0.1M NF001 新加坡 60ms 0.1, TG03 IT 0.6M NF002 IT 248ms 0.6, 'NF003 法国 213ms 0.3M TG1590ms 4FreeIran-a75f8a5610', TG01 俄罗斯 0.3M NF004 俄罗斯 209ms 0., 'NF005 美国 223ms 0.0M TG4139ms 4Nika-28739c35ef', 'NF006 德国 255ms 0.8M TG4186ms 4FreeIran-c320962833', WEB07 IT 0.4M NF007 IT 258ms 0.4, TG02 俄罗斯 0.2M NF008 俄罗斯 245ms 0., 'NF009 德国 297ms 0.1M TG5192ms 🇩🇪 德国 | DEU', TG05 IT 0.1M NF010 IT 264ms 0.1]
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
