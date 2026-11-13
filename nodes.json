@@ -1,57 +1,72 @@
 {
-  "generated_at": "20261113-163437",
-  "best": 3,
-  "all": 26,
-  "lines": 3,
+  "generated_at": "20261113-174633",
+  "best": 4,
+  "all": 25,
+  "lines": 4,
   "meta": {
-    "tested": 1618,
-    "servable": 26
+    "tested": 1593,
+    "servable": 25
   },
   "countries": [
-    "IT"
+    "IT",
+    "NG"
   ],
   "nodes": [
     {
-      "display_name": "NF001 IT 239ms 0.9M TG5163ms 🇮🇹 意大利 | ITA #5",
-      "proto": "ss",
-      "host": "202.50.253.99",
-      "tg_ok": true,
-      "tg_ms": 5163.8,
-      "port": "19999",
-      "tcp_ms": 239.78530000022147,
-      "real_ms": 598.8,
-      "country": "IT",
-      "country_name": "IT",
-      "speed_mbps": 0.86,
-      "score": 31.09
-    },
-    {
-      "display_name": "NF002 IT 249ms 0.5M TG3161ms 🇮🇹[www.v2nodes.com] ",
+      "display_name": "NF001 IT 254ms 0.2M TG1868ms 🇮🇹[www.v2nodes.com] ",
       "proto": "ss",
       "host": "202.50.253.36",
       "tg_ok": true,
-      "tg_ms": 3161.4,
+      "tg_ms": 1868.4,
       "port": "19999",
-      "tcp_ms": 249.21529999846825,
-      "real_ms": 611.8,
+      "tcp_ms": 254.17039999956614,
+      "real_ms": 694.1,
       "country": "IT",
       "country_name": "IT",
-      "speed_mbps": 0.48,
-      "score": 28.44
+      "speed_mbps": 0.24,
+      "score": 27.2
     },
     {
-      "display_name": "NF003 IT 244ms 0.1M TG3098ms 🇮🇹IT_2|1.5MB/s",
+      "display_name": "NF002 尼日利亚 219ms 0.1M TG7653ms 🇳🇬[www.v2nodes.com] ",
+      "proto": "trojan",
+      "host": "sclass-01.catcat321.com",
+      "tg_ok": true,
+      "tg_ms": 7653.0,
+      "port": "20103",
+      "tcp_ms": 219.8376999986067,
+      "real_ms": 2809.4,
+      "country": "NG",
+      "country_name": "尼日利亚",
+      "speed_mbps": 0.07,
+      "score": 23.43
+    },
+    {
+      "display_name": "NF003 IT 246ms 0.2M TG2489ms 🇮🇹IT_2|1.5MB/s",
       "proto": "ss",
       "host": "202.50.253.81",
       "tg_ok": true,
-      "tg_ms": 3098.9,
+      "tg_ms": 2489.8,
       "port": "19999",
-      "tcp_ms": 244.25139999948442,
-      "real_ms": 588.6,
+      "tcp_ms": 246.55559999882826,
+      "real_ms": 601.8,
       "country": "IT",
       "country_name": "IT",
-      "speed_mbps": 0.11,
-      "score": 24.44
+      "speed_mbps": 0.24,
+      "score": 26.58
+    },
+    {
+      "display_name": "NF004 IT 243ms 0.1M TG2125ms 🇮🇹 意大利 | ITA #5",
+      "proto": "ss",
+      "host": "202.50.253.99",
+      "tg_ok": true,
+      "tg_ms": 2125.8,
+      "port": "19999",
+      "tcp_ms": 243.22979999851668,
+      "real_ms": 586.4,
+      "country": "IT",
+      "country_name": "IT",
+      "speed_mbps": 0.13,
+      "score": 25.82
     }
   ]
 }
