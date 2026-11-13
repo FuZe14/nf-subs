@@ -5,32 +5,8 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: 'NF001 IT 254ms 0.2M TG1868ms 🇮🇹[www.v2nodes.com] '
-    server: 202.50.253.36
-    port: 19999
-    udp: true
-    skip-cert-verify: false
-    type: ss
-    cipher: 'aes-256-gcm'
-    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF002 尼日利亚 219ms 0.1M TG7653ms 🇳🇬[www.v2nodes.com] '
-    server: 'sclass-01.catcat321.com'
-    port: 20103
-    udp: true
-    skip-cert-verify: true
-    type: trojan
-    password: 'd7563108-615c-4338-a7bd-77f359869a4a'
-    sni: hk.catxstar.com
-  - name: 'NF003 IT 246ms 0.2M TG2489ms 🇮🇹IT_2|1.5MB/s'
+  - name: 'NF001 IT 245ms 0.7M TG2324ms 🇮🇹IT_2|1.5MB/s'
     server: 202.50.253.81
-    port: 19999
-    udp: true
-    skip-cert-verify: false
-    type: ss
-    cipher: 'aes-256-gcm'
-    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF004 IT 243ms 0.1M TG2125ms 🇮🇹 意大利 | ITA #5'
-    server: 202.50.253.99
     port: 19999
     udp: true
     skip-cert-verify: false
@@ -40,12 +16,12 @@ proxies:
 proxy-groups:
   - name: PROXY
     type: select
-    proxies: ['NF001 IT 254ms 0.2M TG1868ms 🇮🇹[www.v2nodes.com] ', 'NF002 尼日利亚 219ms 0.1M TG7653ms 🇳🇬[www.v2nodes.com] ', 'NF003 IT 246ms 0.2M TG2489ms 🇮🇹IT_2|1.5MB/s', 'NF004 IT 243ms 0.1M TG2125ms 🇮🇹 意大利 | ITA #5']
+    proxies: ['NF001 IT 245ms 0.7M TG2324ms 🇮🇹IT_2|1.5MB/s']
   - name: AUTO
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies: ['NF001 IT 254ms 0.2M TG1868ms 🇮🇹[www.v2nodes.com] ', 'NF002 尼日利亚 219ms 0.1M TG7653ms 🇳🇬[www.v2nodes.com] ', 'NF003 IT 246ms 0.2M TG2489ms 🇮🇹IT_2|1.5MB/s', 'NF004 IT 243ms 0.1M TG2125ms 🇮🇹 意大利 | ITA #5']
+    proxies: ['NF001 IT 245ms 0.7M TG2324ms 🇮🇹IT_2|1.5MB/s']
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
