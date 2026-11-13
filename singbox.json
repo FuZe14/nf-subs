@@ -19,6 +19,9 @@
         "nf002",
         "nf003",
         "nf004",
+        "nf005",
+        "nf006",
+        "nf007",
         "direct"
       ],
       "default": "nf001"
@@ -26,74 +29,86 @@
     {
       "type": "vless",
       "tag": "nf001",
-      "server": "pl3.fox-lisa.ru",
+      "server": "hollandlanzerotte.xyz",
       "server_port": 443,
-      "uuid": "ccb8ff48-3934-4250-b4ec-bb76b95d154f",
+      "uuid": "50a87e21-f0e2-4b53-a787-91adfe748f63",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "pl3.fox-lisa.ru",
+        "server_name": "hollandlanzerotte.xyz",
         "reality": {
           "enabled": true,
-          "public_key": "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs",
-          "short_id": "027af64166562b09"
+          "public_key": "EEL-yDPBfol_fiEEM8Pd0zue7SSz5MtZlXEePVak2jc",
+          "short_id": ""
         }
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "nf002",
-      "server": "5.104.74.50",
-      "server_port": 8443,
-      "uuid": "690004b0-ccf2-4106-be08-80a90039a369",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "uk-room07.filesnap.tech",
-        "reality": {
-          "enabled": true,
-          "public_key": "48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM",
-          "short_id": "dbef98744832b751"
-        }
-      }
+      "server": "202.50.253.81",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "vless",
       "tag": "nf003",
-      "server": "178.214.125.1",
-      "server_port": 443,
-      "uuid": "3f3160a0-747d-4fed-bf3d-4d884bfa964d",
-      "flow": "xtls-rprx-vision",
+      "server": "9.247.174.134",
+      "server_port": 8443,
+      "uuid": "585a421d-d782-4420-912e-dd58ff5966d7",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "conf.emaar.ru",
+        "server_name": "play.googleapis.com",
         "reality": {
           "enabled": true,
-          "public_key": "ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY",
-          "short_id": "6172ba9cffe9c22f"
+          "public_key": "7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A",
+          "short_id": "974f7f8f"
         }
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "nf004",
-      "server": "84.32.51.250",
-      "server_port": 443,
-      "uuid": "a94d8907-6bbb-4570-80d3-dfdc314c1e7a",
-      "flow": "xtls-rprx-vision",
+      "server": "202.50.253.36",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "vless",
+      "tag": "nf005",
+      "server": "162.55.242.208",
+      "server_port": 2096,
+      "uuid": "7b03cd1c-8734-4051-8de6-de6335182f56",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "lt.t1n2.com",
+        "server_name": "www.cloudflare.com",
         "reality": {
           "enabled": true,
-          "public_key": "awc2TGvraH8xMqfsAnNQ7JMQ_uUF8gW5auvU2gQfjR0",
-          "short_id": "b31de5bead2ebf3c"
+          "public_key": "4-STTPXh4hoyInAny-P08XYPyQDEh-GYHQ1LMbjL7yA",
+          "short_id": "f362c741c17f477e"
         }
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "nf006",
+      "server": "202.50.253.63",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "nf007",
+      "server": "202.50.253.18",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "direct",
