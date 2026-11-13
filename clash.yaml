@@ -5,26 +5,24 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: 'NF001 IT 242ms 2.1M TG2352ms NF001 IT 242ms 2.1M '
-    server: 202.50.253.81
+  - name: 'NF001 IT 239ms 0.9M TG5163ms 🇮🇹 意大利 | ITA #5'
+    server: 202.50.253.99
     port: 19999
     udp: true
     skip-cert-verify: false
     type: ss
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF002 瑞典 223ms 0.2M TG3065ms NF002 瑞典 223ms 0.2M '
-    server: 16.171.159.75
-    port: 80
+  - name: 'NF002 IT 249ms 0.5M TG3161ms 🇮🇹[www.v2nodes.com] '
+    server: 202.50.253.36
+    port: 19999
     udp: true
     skip-cert-verify: false
-    type: vmess
-    uuid: '5b2e2e5f-1302-4d65-ab39-27f6f0ca5562'
-    alterId: 0
-    cipher: auto
-    network: grpc
-  - name: 'NF003 IT 258ms 0.9M TG2826ms NF003 IT 258ms 0.9M '
-    server: 202.50.253.36
+    type: ss
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+  - name: 'NF003 IT 244ms 0.1M TG3098ms 🇮🇹IT_2|1.5MB/s'
+    server: 202.50.253.81
     port: 19999
     udp: true
     skip-cert-verify: false
@@ -34,12 +32,12 @@ proxies:
 proxy-groups:
   - name: PROXY
     type: select
-    proxies: ['NF001 IT 242ms 2.1M TG2352ms NF001 IT 242ms 2.1M ', 'NF002 瑞典 223ms 0.2M TG3065ms NF002 瑞典 223ms 0.2M ', 'NF003 IT 258ms 0.9M TG2826ms NF003 IT 258ms 0.9M ']
+    proxies: ['NF001 IT 239ms 0.9M TG5163ms 🇮🇹 意大利 | ITA #5', 'NF002 IT 249ms 0.5M TG3161ms 🇮🇹[www.v2nodes.com] ', 'NF003 IT 244ms 0.1M TG3098ms 🇮🇹IT_2|1.5MB/s']
   - name: AUTO
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies: ['NF001 IT 242ms 2.1M TG2352ms NF001 IT 242ms 2.1M ', 'NF002 瑞典 223ms 0.2M TG3065ms NF002 瑞典 223ms 0.2M ', 'NF003 IT 258ms 0.9M TG2826ms NF003 IT 258ms 0.9M ']
+    proxies: ['NF001 IT 239ms 0.9M TG5163ms 🇮🇹 意大利 | ITA #5', 'NF002 IT 249ms 0.5M TG3161ms 🇮🇹[www.v2nodes.com] ', 'NF003 IT 244ms 0.1M TG3098ms 🇮🇹IT_2|1.5MB/s']
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
