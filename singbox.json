@@ -22,6 +22,9 @@
         "nf005",
         "nf006",
         "nf007",
+        "nf008",
+        "nf009",
+        "nf010",
         "direct"
       ],
       "default": "nf001"
@@ -29,18 +32,18 @@
     {
       "type": "vless",
       "tag": "nf001",
-      "server": "hollandlanzerotte.xyz",
-      "server_port": 443,
-      "uuid": "50a87e21-f0e2-4b53-a787-91adfe748f63",
+      "server": "zfapi.zalolink.com",
+      "server_port": 46957,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "hollandlanzerotte.xyz",
+        "server_name": "psstatic.cdn.bcebos.com",
         "reality": {
           "enabled": true,
-          "public_key": "EEL-yDPBfol_fiEEM8Pd0zue7SSz5MtZlXEePVak2jc",
-          "short_id": ""
+          "public_key": "1SefqLQXrqkiUdf7cTMF53hrMZyo684_uneRC8-qTxI",
+          "short_id": "8f6683a234d3"
         }
       }
     },
@@ -55,6 +58,61 @@
     {
       "type": "vless",
       "tag": "nf003",
+      "server": "edge.bookmai.com",
+      "server_port": 443,
+      "uuid": "b9bfa54d-bc44-4592-a6d6-89a9665d286f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "mother-earth.fyi",
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf004",
+      "server": "94.183.164.96",
+      "server_port": 8443,
+      "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "tgnl.blog-forme.ru",
+        "reality": {
+          "enabled": true,
+          "public_key": "qkwh_hd7pYmvQcABVy4IHMF9l_RtAOqqFqRhkRBVyQI",
+          "short_id": "e114741e080317d4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf005",
+      "server": "188.114.99.137",
+      "server_port": 443,
+      "uuid": "4b50270b-5caf-4c34-b3da-17b4525604a6",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "cryptoventura.online"
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/de3/live",
+        "headers": {
+          "Host": "cryptoventura.online"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf006",
       "server": "9.247.174.134",
       "server_port": 8443,
       "uuid": "585a421d-d782-4420-912e-dd58ff5966d7",
@@ -71,41 +129,52 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "nf004",
-      "server": "202.50.253.36",
+      "tag": "nf007",
+      "server": "202.50.253.72",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "vless",
-      "tag": "nf005",
-      "server": "162.55.242.208",
-      "server_port": 2096,
-      "uuid": "7b03cd1c-8734-4051-8de6-de6335182f56",
+      "tag": "nf008",
+      "server": "5.35.44.218",
+      "server_port": 8443,
+      "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.cloudflare.com",
+        "server_name": "nl17.blog-forme.ru",
         "reality": {
           "enabled": true,
-          "public_key": "4-STTPXh4hoyInAny-P08XYPyQDEh-GYHQ1LMbjL7yA",
-          "short_id": "f362c741c17f477e"
+          "public_key": "bxCIwojWO_edyWgi_QS-BOEnbX-prYu5B1hN_7Skgnc",
+          "short_id": "b6efdae4d829da97"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf009",
+      "server": "178.214.125.1",
+      "server_port": 443,
+      "uuid": "3f3160a0-747d-4fed-bf3d-4d884bfa964d",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "conf.emaar.ru",
+        "reality": {
+          "enabled": true,
+          "public_key": "ZxCwJxbsZWJYYCPzeWj7_fxJMVhwh4XGfpvjmEIQjHY",
+          "short_id": "6172ba9cffe9c22f"
         }
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "nf006",
-      "server": "202.50.253.63",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "nf007",
-      "server": "202.50.253.18",
+      "tag": "nf010",
+      "server": "202.50.253.36",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
