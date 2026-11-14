@@ -27,6 +27,9 @@
         "nf010",
         "nf011",
         "nf012",
+        "nf013",
+        "nf014",
+        "nf015",
         "direct"
       ],
       "default": "nf001"
@@ -50,78 +53,16 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "nf002",
-      "server": "31.58.213.230",
-      "server_port": 443,
-      "uuid": "2232d904-8e6a-4202-8240-6efd8aec02e9",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "cron.jarbook.net",
-        "reality": {
-          "enabled": true,
-          "public_key": "kZT-TcQzZQL0sTmcsipzIgE7qO2vdZom4Res0KbnbQ0",
-          "short_id": "295f8129"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "nf003",
-      "server": "94.183.164.96",
-      "server_port": 8443,
-      "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "tgnl.blog-forme.ru",
-        "reality": {
-          "enabled": true,
-          "public_key": "qkwh_hd7pYmvQcABVy4IHMF9l_RtAOqqFqRhkRBVyQI",
-          "short_id": "e114741e080317d4"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "nf004",
-      "server": "202.50.253.81",
+      "tag": "nf002",
+      "server": "202.50.253.90",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "vless",
-      "tag": "nf005",
-      "server": "se1.slowframe.org",
-      "server_port": 8443,
-      "uuid": "e50e6851-a29a-45a1-811d-1e9230c1512a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "se1.slowframe.org",
-        "reality": {
-          "enabled": true,
-          "public_key": "lQn0k9GCrG7Hh34b8ezAyVjc9KBCxQm3oP0xdxKGy0U",
-          "short_id": "35cb85e41b041622"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "nf006",
-      "server": "216.23.124.158",
-      "server_port": 8443,
-      "method": "2022-blake3-aes-128-gcm",
-      "password": "cwC9f/Q0pc9j5A0d4gileg=="
-    },
-    {
-      "type": "vless",
-      "tag": "nf007",
+      "tag": "nf003",
       "server": "n1.topingr.ir",
       "server_port": 443,
       "uuid": "3ffb0799-5047-420a-90af-6a4b3fef91b0",
@@ -140,33 +81,79 @@
     },
     {
       "type": "vless",
-      "tag": "nf008",
-      "server": "pl3.fox-lisa.ru",
+      "tag": "nf004",
+      "server": "31.58.213.230",
       "server_port": 443,
-      "uuid": "ccb8ff48-3934-4250-b4ec-bb76b95d154f",
+      "uuid": "2232d904-8e6a-4202-8240-6efd8aec02e9",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "pl3.fox-lisa.ru",
+        "server_name": "cron.jarbook.net",
         "reality": {
           "enabled": true,
-          "public_key": "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs",
-          "short_id": "027af64166562b09"
+          "public_key": "kZT-TcQzZQL0sTmcsipzIgE7qO2vdZom4Res0KbnbQ0",
+          "short_id": "295f8129"
         }
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "nf009",
-      "server": "202.50.253.99",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+      "type": "vless",
+      "tag": "nf005",
+      "server": "94.183.164.96",
+      "server_port": 8443,
+      "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "tgnl.blog-forme.ru",
+        "reality": {
+          "enabled": true,
+          "public_key": "qkwh_hd7pYmvQcABVy4IHMF9l_RtAOqqFqRhkRBVyQI",
+          "short_id": "e114741e080317d4"
+        }
+      }
     },
     {
       "type": "vless",
-      "tag": "nf010",
+      "tag": "nf006",
+      "server": "se1.slowframe.org",
+      "server_port": 8443,
+      "uuid": "e50e6851-a29a-45a1-811d-1e9230c1512a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "se1.slowframe.org",
+        "reality": {
+          "enabled": true,
+          "public_key": "lQn0k9GCrG7Hh34b8ezAyVjc9KBCxQm3oP0xdxKGy0U",
+          "short_id": "35cb85e41b041622"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf007",
+      "server": "87.121.89.160",
+      "server_port": 8443,
+      "uuid": "e50e6851-a29a-45a1-811d-1e9230c1512a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "fi1.slowframe.org",
+        "reality": {
+          "enabled": true,
+          "public_key": "lQn0k9GCrG7Hh34b8ezAyVjc9KBCxQm3oP0xdxKGy0U",
+          "short_id": "35cb85e41b041622"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf008",
       "server": "31.58.226.75",
       "server_port": 443,
       "uuid": "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc",
@@ -184,16 +171,86 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "nf011",
-      "server": "202.50.253.90",
+      "tag": "nf009",
+      "server": "202.50.253.36",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
+      "type": "vless",
+      "tag": "nf010",
+      "server": "pl3.fox-lisa.ru",
+      "server_port": 443,
+      "uuid": "ccb8ff48-3934-4250-b4ec-bb76b95d154f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "pl3.fox-lisa.ru",
+        "reality": {
+          "enabled": true,
+          "public_key": "NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs",
+          "short_id": "027af64166562b09"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf011",
+      "server": "200.102.180.37",
+      "server_port": 8443,
+      "uuid": "664f65f4-33b3-43a3-b9e5-68192d1d428e",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "juniper-canyon.cdn.cachefleet.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "bGwVs-Re6vNB1tuKqZZ209x7l361FxZdtPHg0yZLa2Q",
+          "short_id": "63c4425dacae86cb"
+        }
+      }
+    },
+    {
       "type": "shadowsocks",
       "tag": "nf012",
-      "server": "202.50.253.63",
+      "server": "202.50.253.99",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "vmess",
+      "tag": "nf013",
+      "server": "123466.ru",
+      "server_port": 26032,
+      "uuid": "804334e2-04ca-434c-8311-3ccee8218175",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vless",
+      "tag": "nf014",
+      "server": "107.181.112.135",
+      "server_port": 8883,
+      "uuid": "370f9f39-efa6-4bfc-8ec4-2cc912424974",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "ue-author.semiconductor.samsung.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "SKfzhTQJZAbgioD0DEgFt7GY4b3LcV4jVKQxwaHwG1M",
+          "short_id": "1a18259dd959"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "nf015",
+      "server": "202.50.253.72",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
