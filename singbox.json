@@ -27,43 +27,13 @@
         "nf010",
         "nf011",
         "nf012",
-        "nf013",
-        "nf014",
-        "nf015",
         "direct"
       ],
       "default": "nf001"
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "nf001",
-      "server": "47.99.219.144",
-      "server_port": 443,
-      "uuid": "291b5d4a-19ee-4f22-91df-4dc43850b970",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vless",
-      "tag": "nf002",
-      "server": "94.183.164.96",
-      "server_port": 8443,
-      "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "tgnl.blog-forme.ru",
-        "reality": {
-          "enabled": true,
-          "public_key": "qkwh_hd7pYmvQcABVy4IHMF9l_RtAOqqFqRhkRBVyQI",
-          "short_id": "e114741e080317d4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "nf003",
       "server": "fremont.freegate.win",
       "server_port": 443,
       "uuid": "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc",
@@ -81,7 +51,7 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "nf004",
+      "tag": "nf002",
       "server": "202.50.253.99",
       "server_port": 19999,
       "method": "aes-256-gcm",
@@ -89,46 +59,37 @@
     },
     {
       "type": "vless",
-      "tag": "nf005",
-      "server": "5.175.171.30",
-      "server_port": 8444,
-      "uuid": "555b35c4-30f9-40c6-a61a-7f53ab1bea45",
+      "tag": "nf003",
+      "server": "94.183.164.96",
+      "server_port": 8443,
+      "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "www.volkswagen.de",
+        "server_name": "tgnl.blog-forme.ru",
         "reality": {
           "enabled": true,
-          "public_key": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
-          "short_id": "1a2b3c4d"
+          "public_key": "qkwh_hd7pYmvQcABVy4IHMF9l_RtAOqqFqRhkRBVyQI",
+          "short_id": "e114741e080317d4"
         }
       }
     },
     {
-      "type": "vmess",
-      "tag": "nf006",
-      "server": "grab-assistance-crawford-capital.trycloudflare.com",
-      "server_port": 443,
-      "uuid": "2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea",
-      "security": "auto",
-      "alter_id": 0,
+      "type": "trojan",
+      "tag": "nf004",
+      "server": "sclass-01.catcat321.com",
+      "server_port": 20103,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "grab-assistance-crawford-capital.trycloudflare.com"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/2a4d24bf-367a-4951-bfe6-50c7a0bdb5ea-vm",
-        "headers": {
-          "Host": "grab-assistance-crawford-capital.trycloudflare.com"
-        }
+        "insecure": true,
+        "server_name": "hk.catxstar.com"
       }
     },
     {
       "type": "vless",
-      "tag": "nf007",
+      "tag": "nf005",
       "server": "31.59.105.137",
       "server_port": 443,
       "uuid": "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc",
@@ -146,7 +107,25 @@
     },
     {
       "type": "vless",
-      "tag": "nf008",
+      "tag": "nf006",
+      "server": "5.175.171.30",
+      "server_port": 8444,
+      "uuid": "555b35c4-30f9-40c6-a61a-7f53ab1bea45",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "www.volkswagen.de",
+        "reality": {
+          "enabled": true,
+          "public_key": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
+          "short_id": "1a2b3c4d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf007",
       "server": "196.240.125.250",
       "server_port": 8443,
       "uuid": "97fd7807-7e2b-49da-8a0e-e40197088f97",
@@ -159,25 +138,7 @@
     },
     {
       "type": "vless",
-      "tag": "nf009",
-      "server": "83.141.68.185",
-      "server_port": 443,
-      "uuid": "c9722094-0f55-4678-96db-3b88953a46da",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "latino.plus-hit.ru",
-        "reality": {
-          "enabled": true,
-          "public_key": "d3yQvdpwFHpLkl0ZbTnMH4uihCTKn4CAHy0W6so0VTI",
-          "short_id": "7c8e3d4a9b1f26d3"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "nf010",
+      "tag": "nf008",
       "server": "31.58.226.75",
       "server_port": 443,
       "uuid": "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc",
@@ -195,15 +156,15 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "nf011",
-      "server": "202.50.253.54",
+      "tag": "nf009",
+      "server": "202.50.253.36",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "vless",
-      "tag": "nf012",
+      "tag": "nf010",
       "server": "5.175.171.30",
       "server_port": 443,
       "uuid": "555b35c4-30f9-40c6-a61a-7f53ab1bea45",
@@ -220,34 +181,17 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "nf013",
-      "server": "107.181.112.135",
-      "server_port": 8883,
-      "uuid": "370f9f39-efa6-4bfc-8ec4-2cc912424974",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "ue-author.semiconductor.samsung.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "SKfzhTQJZAbgioD0DEgFt7GY4b3LcV4jVKQxwaHwG1M",
-          "short_id": "1a18259dd959"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "nf014",
-      "server": "202.50.253.72",
+      "tag": "nf011",
+      "server": "202.50.253.54",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "shadowsocks",
-      "tag": "nf015",
-      "server": "202.50.253.36",
+      "tag": "nf012",
+      "server": "202.50.253.90",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
