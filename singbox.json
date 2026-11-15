@@ -26,33 +26,33 @@
         "nf009",
         "nf010",
         "nf011",
-        "nf012",
-        "nf013",
         "direct"
       ],
       "default": "nf001"
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "nf001",
-      "server": "92.118.206.217",
-      "server_port": 8443,
-      "uuid": "c53ea5e9-ed8b-4990-805d-7f1d6451426c",
-      "flow": "xtls-rprx-vision",
+      "server": "sclass-b1.catcat321.com",
+      "server_port": 20028,
+      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "dur.sky-vault.top",
-        "reality": {
-          "enabled": true,
-          "public_key": "fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI",
-          "short_id": "3cbc3d737fb9c4af"
-        }
+        "server_name": "hk.catxstar.com"
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "nf002",
+      "server": "202.50.253.36",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "vless",
+      "tag": "nf003",
       "server": "94.183.164.96",
       "server_port": 8443,
       "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
@@ -70,92 +70,63 @@
     },
     {
       "type": "vless",
-      "tag": "nf003",
-      "server": "31.58.226.75",
-      "server_port": 443,
-      "uuid": "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc",
+      "tag": "nf004",
+      "server": "92.118.206.217",
+      "server_port": 8443,
+      "uuid": "c53ea5e9-ed8b-4990-805d-7f1d6451426c",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "fremont.freegate.win",
+        "server_name": "dur.sky-vault.top",
         "reality": {
           "enabled": true,
-          "public_key": "PX-ZBQTJzVR1k6x4VQdEhd8fl5LRLnfgHZQyT9NAFhE",
-          "short_id": ""
+          "public_key": "fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI",
+          "short_id": "3cbc3d737fb9c4af"
         }
       }
     },
     {
-      "type": "trojan",
-      "tag": "nf004",
-      "server": "sclass-b1.catcat321.com",
-      "server_port": 20028,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
+      "type": "vless",
+      "tag": "nf005",
+      "server": "static.66.192.105.178.clients.your-server.de.SavFasF.Ir",
+      "server_port": 443,
+      "uuid": "f8432887-bd79-4e91-9c16-b45a9ad9275d",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "hk.catxstar.com"
+        "server_name": "tcptlsdigikala.savfasf.ir"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf006",
+      "server": "18.191.252.44",
+      "server_port": 58628,
+      "uuid": "6f766db2-6cde-4602-89d1-09dc39176db8",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "android.clients.google.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "TGckY52Cfku9oq0bhiqK0Ot7Vj9ycLbZJWO1B5o6tgQ",
+          "short_id": "4704aa5a64c3"
+        }
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "nf005",
-      "server": "202.50.253.72",
+      "tag": "nf007",
+      "server": "202.50.253.81",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "vless",
-      "tag": "nf006",
-      "server": "b998f03d.de-p2.h1clayd.click",
-      "server_port": 443,
-      "uuid": "474638a5-dc58-4453-9e40-70bcaa4ef74c",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "b998f03d.de-p2.h1clayd.click",
-        "reality": {
-          "enabled": true,
-          "public_key": "RjoTK5x2_y3hb4nsOUnjii7IAu6gy5GrC-VN-H_AIh0",
-          "short_id": "c10f4100fa3a8d47"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "nf007",
-      "server": "sclass-01.catcat321.com",
-      "server_port": 20103,
-      "password": "d7563108-615c-4338-a7bd-77f359869a4a",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "hk.catxstar.com"
-      }
-    },
-    {
-      "type": "vless",
       "tag": "nf008",
-      "server": "5.175.171.30",
-      "server_port": 443,
-      "uuid": "555b35c4-30f9-40c6-a61a-7f53ab1bea45",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "assets-v2.porsche.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk",
-          "short_id": "1a2b3c4d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "nf009",
       "server": "45.198.0.56",
       "server_port": 443,
       "uuid": "ccb8ff48-3934-4250-b4ec-bb76b95d154f",
@@ -172,42 +143,35 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "nf009",
+      "server": "202.50.253.90",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
       "type": "vless",
       "tag": "nf010",
-      "server": "107.181.112.135",
-      "server_port": 8883,
-      "uuid": "370f9f39-efa6-4bfc-8ec4-2cc912424974",
+      "server": "83.141.68.185",
+      "server_port": 443,
+      "uuid": "c9722094-0f55-4678-96db-3b88953a46da",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "ue-author.semiconductor.samsung.com",
+        "server_name": "latino.plus-hit.ru",
         "reality": {
           "enabled": true,
-          "public_key": "SKfzhTQJZAbgioD0DEgFt7GY4b3LcV4jVKQxwaHwG1M",
-          "short_id": "1a18259dd959"
+          "public_key": "d3yQvdpwFHpLkl0ZbTnMH4uihCTKn4CAHy0W6so0VTI",
+          "short_id": "7c8e3d4a9b1f26d3"
         }
       }
     },
     {
       "type": "shadowsocks",
       "tag": "nf011",
-      "server": "202.50.253.54",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "nf012",
       "server": "202.50.253.99",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "nf013",
-      "server": "202.50.253.36",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
