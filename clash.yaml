@@ -5,57 +5,21 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: 'NF001 美国 174ms 0.3M TG3419ms 4Kian-cb676184fc'
-    server: fremont.freegate.win
-    port: 443
+  - name: 'NF001 德国 224ms 0.6M TG2663ms NF001 德国 224ms 0.6M '
+    server: 92.118.206.217
+    port: 8443
     udp: true
     skip-cert-verify: false
     type: vless
-    uuid: '8f9c04c9-5c94-495e-9452-ab8b7a8af1bc'
+    uuid: 'c53ea5e9-ed8b-4990-805d-7f1d6451426c'
     tls: true
-    servername: fremont.freegate.win
+    servername: 'dur.sky-vault.top'
     reality-opts:
-      public-key: 'PX-ZBQTJzVR1k6x4VQdEhd8fl5LRLnfgHZQyT9NAFhE'
-      short-id: ''
-    client-fingerprint: chrome
-    flow: 'xtls-rprx-vision'
-  - name: 'NF002 IT 269ms 0.1M TG3027ms 🇮🇹 意大利 | ITA #10'
-    server: 202.50.253.90
-    port: 19999
-    udp: true
-    skip-cert-verify: false
-    type: ss
-    cipher: 'aes-256-gcm'
-    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF003 伊朗 223ms 0.1M TG4735ms 4Mohsen-211b4f0d84'
-    server: n1.topingr.ir
-    port: 443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '3ffb0799-5047-420a-90af-6a4b3fef91b0'
-    tls: true
-    servername: cdn2.zovip2.ir
-    network: ws
-    ws-opts:
-      path: /api/v3/pulse
-      headers:
-        Host: cdn2.zovip2.ir
-  - name: 'NF004 香港 233ms 0.3M TG7687ms 4Kian-55f7f2ae45'
-    server: 31.58.213.230
-    port: 443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '2232d904-8e6a-4202-8240-6efd8aec02e9'
-    tls: true
-    servername: cron.jarbook.net
-    reality-opts:
-      public-key: 'kZT-TcQzZQL0sTmcsipzIgE7qO2vdZom4Res0KbnbQ0'
-      short-id: 295f8129
+      public-key: 'fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI'
+      short-id: 3cbc3d737fb9c4af
     client-fingerprint: firefox
     flow: 'xtls-rprx-vision'
-  - name: 'NF005 俄罗斯 234ms 0.1M TG3823ms 4Nika-4f99bc914b'
+  - name: NF002 俄罗斯 210ms 0.8M TG3528ms NF002 俄罗斯 210ms 0.8M
     server: 94.183.164.96
     port: 8443
     udp: true
@@ -69,35 +33,7 @@ proxies:
       short-id: e114741e080317d4
     client-fingerprint: firefox
     flow: 'xtls-rprx-vision'
-  - name: 'NF006 瑞典 228ms 0.5M TG2461ms 4FreeIran-a8f3a344e1'
-    server: se1.slowframe.org
-    port: 8443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: 'e50e6851-a29a-45a1-811d-1e9230c1512a'
-    tls: true
-    servername: se1.slowframe.org
-    reality-opts:
-      public-key: lQn0k9GCrG7Hh34b8ezAyVjc9KBCxQm3oP0xdxKGy0U
-      short-id: 35cb85e41b041622
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
-  - name: 'NF007 芬兰 225ms 0.3M TG5968ms 4Kian-153c8aee51'
-    server: 87.121.89.160
-    port: 8443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: 'e50e6851-a29a-45a1-811d-1e9230c1512a'
-    tls: true
-    servername: fi1.slowframe.org
-    reality-opts:
-      public-key: lQn0k9GCrG7Hh34b8ezAyVjc9KBCxQm3oP0xdxKGy0U
-      short-id: 35cb85e41b041622
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
-  - name: 'NF008 美国 164ms 0.6M TG5073ms 4Kian-6def9646c8'
+  - name: 'NF003 美国 157ms 3.8M TG2540ms NF003 美国 157ms 3.8M '
     server: 31.58.226.75
     port: 443
     udp: true
@@ -111,16 +47,59 @@ proxies:
       short-id: ''
     client-fingerprint: firefox
     flow: 'xtls-rprx-vision'
-  - name: 'NF009 IT 257ms 0.3M TG5398ms 🇮🇹 意大利 | ITA #4'
-    server: 202.50.253.36
+  - name: 'NF004 土耳其 48ms 0.5M TG2916ms NF004 土耳其 48ms 0.5M '
+    server: 'sclass-b1.catcat321.com'
+    port: 20028
+    udp: true
+    skip-cert-verify: false
+    type: trojan
+    password: 'd7563108-615c-4338-a7bd-77f359869a4a'
+    sni: hk.catxstar.com
+  - name: 'NF005 IT 250ms 0.8M TG1997ms NF005 IT 250ms 0.8M '
+    server: 202.50.253.72
     port: 19999
     udp: true
     skip-cert-verify: false
     type: ss
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF010 俄罗斯 226ms 0.1M TG3223ms 4Mohsen-e224a83dcb'
-    server: 'pl3.fox-lisa.ru'
+  - name: 'NF006 SK 216ms 0.9M TG2447ms NF006 SK 216ms 0.9M '
+    server: 'b998f03d.de-p2.h1clayd.click'
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '474638a5-dc58-4453-9e40-70bcaa4ef74c'
+    tls: true
+    servername: 'b998f03d.de-p2.h1clayd.click'
+    reality-opts:
+      public-key: 'RjoTK5x2_y3hb4nsOUnjii7IAu6gy5GrC-VN-H_AIh0'
+      short-id: c10f4100fa3a8d47
+    client-fingerprint: chrome
+  - name: NF007 尼日利亚 50ms 0.1M TG4692ms NF007 尼日利亚 50ms 0.1M
+    server: 'sclass-01.catcat321.com'
+    port: 20103
+    udp: true
+    skip-cert-verify: true
+    type: trojan
+    password: 'd7563108-615c-4338-a7bd-77f359869a4a'
+    sni: hk.catxstar.com
+  - name: 'NF008 德国 214ms 0.3M TG2074ms NF008 德国 214ms 0.3M '
+    server: 5.175.171.30
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '555b35c4-30f9-40c6-a61a-7f53ab1bea45'
+    tls: true
+    servername: 'assets-v2.porsche.com'
+    reality-opts:
+      public-key: 'kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk'
+      short-id: 1a2b3c4d
+    client-fingerprint: firefox
+    flow: 'xtls-rprx-vision'
+  - name: NF009 俄罗斯 229ms 0.2M TG3156ms NF009 俄罗斯 229ms 0.2M
+    server: 45.198.0.56
     port: 443
     udp: true
     skip-cert-verify: false
@@ -131,40 +110,9 @@ proxies:
     reality-opts:
       public-key: 'NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs'
       short-id: 027af64166562b09
-    client-fingerprint: chrome
-    flow: 'xtls-rprx-vision'
-  - name: 'NF011 美国 218ms 0.3M TG5830ms 4Kian-6fd4e79ebc'
-    server: 200.102.180.37
-    port: 8443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '664f65f4-33b3-43a3-b9e5-68192d1d428e'
-    tls: true
-    servername: 'juniper-canyon.cdn.cachefleet.com'
-    reality-opts:
-      public-key: 'bGwVs-Re6vNB1tuKqZZ209x7l361FxZdtPHg0yZLa2Q'
-      short-id: 63c4425dacae86cb
     client-fingerprint: firefox
     flow: 'xtls-rprx-vision'
-  - name: 'NF012 IT 262ms 0.3M TG5815ms 🇮🇹 意大利 | ITA #11'
-    server: 202.50.253.99
-    port: 19999
-    udp: true
-    skip-cert-verify: false
-    type: ss
-    cipher: 'aes-256-gcm'
-    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF013 俄罗斯 256ms 0.1M TG7372ms 4Kian-315cdebe2a'
-    server: 123466.ru
-    port: 26032
-    udp: true
-    skip-cert-verify: false
-    type: vmess
-    uuid: '804334e2-04ca-434c-8311-3ccee8218175'
-    alterId: 0
-    cipher: auto
-  - name: 'NF014 美国 223ms 0.3M TG5082ms @GozargahAzad|🇺🇸'
+  - name: 'NF010 美国 237ms 1.6M TG3703ms NF010 美国 237ms 1.6M '
     server: 107.181.112.135
     port: 8883
     udp: true
@@ -177,8 +125,24 @@ proxies:
       public-key: SKfzhTQJZAbgioD0DEgFt7GY4b3LcV4jVKQxwaHwG1M
       short-id: 1a18259dd959
     client-fingerprint: chrome
-  - name: 'NF015 IT 272ms 0.3M TG5495ms 🇮🇹 意大利 | ITA #8'
-    server: 202.50.253.72
+  - name: 'NF011 IT 267ms 0.7M TG4213ms NF011 IT 267ms 0.7M '
+    server: 202.50.253.54
+    port: 19999
+    udp: true
+    skip-cert-verify: false
+    type: ss
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+  - name: 'NF012 IT 253ms 0.5M TG4177ms NF012 IT 253ms 0.5M '
+    server: 202.50.253.99
+    port: 19999
+    udp: true
+    skip-cert-verify: false
+    type: ss
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+  - name: 'NF013 IT 249ms 0.3M TG3138ms NF013 IT 249ms 0.3M '
+    server: 202.50.253.36
     port: 19999
     udp: true
     skip-cert-verify: false
@@ -188,12 +152,12 @@ proxies:
 proxy-groups:
   - name: PROXY
     type: select
-    proxies: ['NF001 美国 174ms 0.3M TG3419ms 4Kian-cb676184fc', 'NF002 IT 269ms 0.1M TG3027ms 🇮🇹 意大利 | ITA #10', 'NF003 伊朗 223ms 0.1M TG4735ms 4Mohsen-211b4f0d84', 'NF004 香港 233ms 0.3M TG7687ms 4Kian-55f7f2ae45', 'NF005 俄罗斯 234ms 0.1M TG3823ms 4Nika-4f99bc914b', 'NF006 瑞典 228ms 0.5M TG2461ms 4FreeIran-a8f3a344e1', 'NF007 芬兰 225ms 0.3M TG5968ms 4Kian-153c8aee51', 'NF008 美国 164ms 0.6M TG5073ms 4Kian-6def9646c8', 'NF009 IT 257ms 0.3M TG5398ms 🇮🇹 意大利 | ITA #4', 'NF010 俄罗斯 226ms 0.1M TG3223ms 4Mohsen-e224a83dcb', 'NF011 美国 218ms 0.3M TG5830ms 4Kian-6fd4e79ebc', 'NF012 IT 262ms 0.3M TG5815ms 🇮🇹 意大利 | ITA #11', 'NF013 俄罗斯 256ms 0.1M TG7372ms 4Kian-315cdebe2a', 'NF014 美国 223ms 0.3M TG5082ms @GozargahAzad|🇺🇸', 'NF015 IT 272ms 0.3M TG5495ms 🇮🇹 意大利 | ITA #8']
+    proxies: ['NF001 德国 224ms 0.6M TG2663ms NF001 德国 224ms 0.6M ', NF002 俄罗斯 210ms 0.8M TG3528ms NF002 俄罗斯 210ms 0.8M, 'NF003 美国 157ms 3.8M TG2540ms NF003 美国 157ms 3.8M ', 'NF004 土耳其 48ms 0.5M TG2916ms NF004 土耳其 48ms 0.5M ', 'NF005 IT 250ms 0.8M TG1997ms NF005 IT 250ms 0.8M ', 'NF006 SK 216ms 0.9M TG2447ms NF006 SK 216ms 0.9M ', NF007 尼日利亚 50ms 0.1M TG4692ms NF007 尼日利亚 50ms 0.1M, 'NF008 德国 214ms 0.3M TG2074ms NF008 德国 214ms 0.3M ', NF009 俄罗斯 229ms 0.2M TG3156ms NF009 俄罗斯 229ms 0.2M, 'NF010 美国 237ms 1.6M TG3703ms NF010 美国 237ms 1.6M ', 'NF011 IT 267ms 0.7M TG4213ms NF011 IT 267ms 0.7M ', 'NF012 IT 253ms 0.5M TG4177ms NF012 IT 253ms 0.5M ', 'NF013 IT 249ms 0.3M TG3138ms NF013 IT 249ms 0.3M ']
   - name: AUTO
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies: ['NF001 美国 174ms 0.3M TG3419ms 4Kian-cb676184fc', 'NF002 IT 269ms 0.1M TG3027ms 🇮🇹 意大利 | ITA #10', 'NF003 伊朗 223ms 0.1M TG4735ms 4Mohsen-211b4f0d84', 'NF004 香港 233ms 0.3M TG7687ms 4Kian-55f7f2ae45', 'NF005 俄罗斯 234ms 0.1M TG3823ms 4Nika-4f99bc914b', 'NF006 瑞典 228ms 0.5M TG2461ms 4FreeIran-a8f3a344e1', 'NF007 芬兰 225ms 0.3M TG5968ms 4Kian-153c8aee51', 'NF008 美国 164ms 0.6M TG5073ms 4Kian-6def9646c8', 'NF009 IT 257ms 0.3M TG5398ms 🇮🇹 意大利 | ITA #4', 'NF010 俄罗斯 226ms 0.1M TG3223ms 4Mohsen-e224a83dcb', 'NF011 美国 218ms 0.3M TG5830ms 4Kian-6fd4e79ebc', 'NF012 IT 262ms 0.3M TG5815ms 🇮🇹 意大利 | ITA #11', 'NF013 俄罗斯 256ms 0.1M TG7372ms 4Kian-315cdebe2a', 'NF014 美国 223ms 0.3M TG5082ms @GozargahAzad|🇺🇸', 'NF015 IT 272ms 0.3M TG5495ms 🇮🇹 意大利 | ITA #8']
+    proxies: ['NF001 德国 224ms 0.6M TG2663ms NF001 德国 224ms 0.6M ', NF002 俄罗斯 210ms 0.8M TG3528ms NF002 俄罗斯 210ms 0.8M, 'NF003 美国 157ms 3.8M TG2540ms NF003 美国 157ms 3.8M ', 'NF004 土耳其 48ms 0.5M TG2916ms NF004 土耳其 48ms 0.5M ', 'NF005 IT 250ms 0.8M TG1997ms NF005 IT 250ms 0.8M ', 'NF006 SK 216ms 0.9M TG2447ms NF006 SK 216ms 0.9M ', NF007 尼日利亚 50ms 0.1M TG4692ms NF007 尼日利亚 50ms 0.1M, 'NF008 德国 214ms 0.3M TG2074ms NF008 德国 214ms 0.3M ', NF009 俄罗斯 229ms 0.2M TG3156ms NF009 俄罗斯 229ms 0.2M, 'NF010 美国 237ms 1.6M TG3703ms NF010 美国 237ms 1.6M ', 'NF011 IT 267ms 0.7M TG4213ms NF011 IT 267ms 0.7M ', 'NF012 IT 253ms 0.5M TG4177ms NF012 IT 253ms 0.5M ', 'NF013 IT 249ms 0.3M TG3138ms NF013 IT 249ms 0.3M ']
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
