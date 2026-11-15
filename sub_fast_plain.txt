@@ -1,2 +1,1 @@
-vless://8f9c04c9-5c94-495e-9452-ab8b7a8af1bc@31.58.226.75:443?encryption=none&type=tcp&security=reality&sni=fremont.freegate.win&fp=firefox&flow=xtls-rprx-vision&pbk=PX-ZBQTJzVR1k6x4VQdEhd8fl5LRLnfgHZQyT9NAFhE#NF001%20%E7%BE%8E%E5%9B%BD%20182ms%201.2M%20TG2722ms%204Kian-6def9646c8
-ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0@202.50.253.54:19999#NF011%20IT%20272ms%201.0M%20TG4045ms%20DE%20SS-09%20%7C%20free-node
+vless://8f9c04c9-5c94-495e-9452-ab8b7a8af1bc@31.58.226.75:443?encryption=none&type=tcp&security=reality&sni=fremont.freegate.win&fp=firefox&flow=xtls-rprx-vision&pbk=PX-ZBQTJzVR1k6x4VQdEhd8fl5LRLnfgHZQyT9NAFhE#NF001%20%E7%BE%8E%E5%9B%BD%20167ms%201.2M%20TG3872ms%204Kian-6def9646c8
