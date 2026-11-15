@@ -1,0 +1,1 @@
+vless://8f9c04c9-5c94-495e-9452-ab8b7a8af1bc@fremont.freegate.win:443?encryption=none&type=tcp&security=reality&sni=fremont.freegate.win&fp=chrome&flow=xtls-rprx-vision&pbk=PX-ZBQTJzVR1k6x4VQdEhd8fl5LRLnfgHZQyT9NAFhE&spx=%2F#NF001%20%E7%BE%8E%E5%9B%BD%20162ms%201.0M%20TG3017ms%204Kian-cb676184fc
