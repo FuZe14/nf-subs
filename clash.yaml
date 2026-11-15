@@ -5,23 +5,37 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: 'NF001 土耳其 49ms 1.7M TG5040ms 🇹🇷TR_1|2.0MB/s'
+  - name: 'NF001 土耳其 52ms 0.3M TG3837ms 🇹🇷 土耳其 | TUR #3'
     server: 'sclass-b1.catcat321.com'
-    port: 20028
+    port: 20027
     udp: true
-    skip-cert-verify: false
+    skip-cert-verify: true
     type: trojan
     password: 'd7563108-615c-4338-a7bd-77f359869a4a'
     sni: hk.catxstar.com
-  - name: 'NF002 IT 243ms 0.9M TG2893ms 🇮🇹IT_1|2.9MB/s'
-    server: 202.50.253.36
+  - name: 'NF002 美国 165ms 1.2M TG3918ms 4Kian-cb676184fc'
+    server: fremont.freegate.win
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '8f9c04c9-5c94-495e-9452-ab8b7a8af1bc'
+    tls: true
+    servername: fremont.freegate.win
+    reality-opts:
+      public-key: 'PX-ZBQTJzVR1k6x4VQdEhd8fl5LRLnfgHZQyT9NAFhE'
+      short-id: ''
+    client-fingerprint: chrome
+    flow: 'xtls-rprx-vision'
+  - name: 'NF003 IT 237ms 0.8M TG3159ms DE SS-11 | free-node'
+    server: 202.50.253.99
     port: 19999
     udp: true
     skip-cert-verify: false
     type: ss
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF003 俄罗斯 202ms 0.9M TG3507ms 4Nika-4f99bc914b'
+  - name: 'NF004 俄罗斯 246ms 0.8M TG3327ms 4Nika-4f99bc914b'
     server: 94.183.164.96
     port: 8443
     udp: true
@@ -35,90 +49,180 @@ proxies:
       short-id: e114741e080317d4
     client-fingerprint: firefox
     flow: 'xtls-rprx-vision'
-  - name: 'NF004 德国 198ms 1.9M TG1921ms 4Mohsen-d457b697cd'
-    server: 92.118.206.217
+  - name: 'NF005 德国 225ms 0.3M TG6426ms 4Kian-dcced0deb7'
+    server: 162.55.242.208
+    port: 2096
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '7b03cd1c-8734-4051-8de6-de6335182f56'
+    tls: true
+    servername: www.cloudflare.com
+    reality-opts:
+      public-key: '4-STTPXh4hoyInAny-P08XYPyQDEh-GYHQ1LMbjL7yA'
+      short-id: f362c741c17f477e
+    client-fingerprint: chrome
+  - name: 'NF006 荷兰 200ms 0.3M TG3782ms 🇳🇱 荷兰 | NLD #5'
+    server: 196.240.125.250
     port: 8443
     udp: true
     skip-cert-verify: false
     type: vless
-    uuid: 'c53ea5e9-ed8b-4990-805d-7f1d6451426c'
+    uuid: '97fd7807-7e2b-49da-8a0e-e40197088f97'
     tls: true
-    servername: 'dur.sky-vault.top'
-    reality-opts:
-      public-key: 'fSVfR9NB-6J6smrZlavi0GWd8JfDh0aXuEkKbtuFzUI'
-      short-id: 3cbc3d737fb9c4af
-    client-fingerprint: firefox
+    servername: 'api-v1-6af87527.vmagnum.win'
     flow: 'xtls-rprx-vision'
-  - name: 'NF005 伊朗 211ms 0.1M TG5988ms 4FreeIran-92783994a0'
-    server: 'static.66.192.105.178.clients.your-server.de.SavFasF.Ir'
+  - name: 'NF007 SK 216ms 0.3M TG4364ms 4Sarina-d78a134ad0'
+    server: 'b998f03d.de-p2.h1clayd.click'
     port: 443
     udp: true
     skip-cert-verify: false
     type: vless
-    uuid: 'f8432887-bd79-4e91-9c16-b45a9ad9275d'
+    uuid: '474638a5-dc58-4453-9e40-70bcaa4ef74c'
     tls: true
-    servername: tcptlsdigikala.savfasf.ir
-    flow: 'xtls-rprx-vision'
-  - name: 'NF006 美国 215ms 0.3M TG2470ms 4Kian-d719fc0a62'
-    server: 18.191.252.44
-    port: 58628
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '6f766db2-6cde-4602-89d1-09dc39176db8'
-    tls: true
-    servername: android.clients.google.com
-    network: xhttp
+    servername: 'b998f03d.de-p2.h1clayd.click'
     reality-opts:
-      public-key: TGckY52Cfku9oq0bhiqK0Ot7Vj9ycLbZJWO1B5o6tgQ
-      short-id: 4704aa5a64c3
+      public-key: 'RjoTK5x2_y3hb4nsOUnjii7IAu6gy5GrC-VN-H_AIh0'
+      short-id: c10f4100fa3a8d47
     client-fingerprint: chrome
-  - name: 'NF007 IT 235ms 1.3M TG1820ms 🇮🇹 意大利 | ITA #1'
+  - name: 'NF008 法国 184ms 0.5M TG3317ms 4Mohsen-bd2d6e4b05'
+    server: 31.59.105.137
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '8f9c04c9-5c94-495e-9452-ab8b7a8af1bc'
+    tls: true
+    servername: paris.freegate.win
+    reality-opts:
+      public-key: B97Gg7DpnBdFsHiCdOIQ6CGx17hcZYj2gEGNxnJ730c
+      short-id: ''
+    client-fingerprint: firefox
+    flow: 'xtls-rprx-vision'
+  - name: 'NF009 香港 185ms 1.0M TG5037ms 4Mohsen-be2d28c9a2'
+    server: planb.mojcn.com
+    port: 16641
+    udp: true
+    skip-cert-verify: false
+    type: vmess
+    uuid: '9d5c15a3-166c-4d65-8a0b-d7a7a7c8863a'
+    alterId: 0
+    cipher: auto
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 7d56482dc5251e2efaca623dcbc64e3d.mobgslb.tbcache.com
+  - name: 'NF010 尼日利亚 232ms 0.1M TG6038ms 4Jadi-f1b944fd03'
+    server: 196.196.149.80
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '4201786b-d99b-4147-a5f0-20d47acddb81'
+    tls: true
+    servername: b3cd32g.es1.h1clayd.click
+    network: grpc
+    reality-opts:
+      public-key: 7efBhLzPwoTtEC1GlukCdiTllobUfa2_XuAKNSLJx30
+      short-id: e7cffac9f8cfb434
+    client-fingerprint: firefox
+  - name: NF011 SC 232ms 0.1M TG7037ms 🇸🇨_塞舌尔 (6)
+    server: 196.199.122.2
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '4201786b-d99b-4147-a5f0-20d47acddb81'
+    tls: true
+    servername: 7aa271t.es1.h1clayd.click
+    reality-opts:
+      public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+      short-id: 42426c882c5fcd41
+    client-fingerprint: firefox
+    flow: 'xtls-rprx-vision'
+  - name: 'NF012 美国 164ms 0.7M TG2573ms 4Kian-6def9646c8'
+    server: 31.58.226.75
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '8f9c04c9-5c94-495e-9452-ab8b7a8af1bc'
+    tls: true
+    servername: fremont.freegate.win
+    reality-opts:
+      public-key: 'PX-ZBQTJzVR1k6x4VQdEhd8fl5LRLnfgHZQyT9NAFhE'
+      short-id: ''
+    client-fingerprint: firefox
+    flow: 'xtls-rprx-vision'
+  - name: 'NF013 IT 268ms 0.7M TG4899ms DE SS-09 | free-node'
+    server: 202.50.253.54
+    port: 19999
+    udp: true
+    skip-cert-verify: false
+    type: ss
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+  - name: 'NF014 德国 214ms 0.3M TG3903ms 4Kian-298671ee84'
+    server: 5.175.171.30
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '555b35c4-30f9-40c6-a61a-7f53ab1bea45'
+    tls: true
+    servername: 'assets-v2.porsche.com'
+    reality-opts:
+      public-key: 'kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk'
+      short-id: 1a2b3c4d
+    client-fingerprint: firefox
+    flow: 'xtls-rprx-vision'
+  - name: 'NF015 荷兰 206ms 0.4M TG5418ms 🇳🇱NL_14|1.2MB/s'
+    server: 194.60.228.97
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '667016ca-f02e-4b5f-bfc3-3d8ed81e9bec'
+    tls: true
+    servername: base.hosamobenl.co.uk
+  - name: 'NF016 IT 268ms 1.0M TG3995ms DE SS-13 | free-node'
+    server: 202.50.253.18
+    port: 19999
+    udp: true
+    skip-cert-verify: false
+    type: ss
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+  - name: 'NF017 德国 227ms 0.3M TG3541ms @tootffarangi🍓'
+    server: 5.175.171.30
+    port: 8444
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '555b35c4-30f9-40c6-a61a-7f53ab1bea45'
+    tls: true
+    servername: www.volkswagen.de
+    reality-opts:
+      public-key: 'kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk'
+      short-id: 1a2b3c4d
+    client-fingerprint: chrome
+    flow: 'xtls-rprx-vision'
+  - name: 'NF018 荷兰 233ms 0.1M TG7562ms 4Mohsen-663a0e1d39'
+    server: 79.182.39.138
+    port: 443
+    udp: true
+    skip-cert-verify: false
+    type: vless
+    uuid: '55458d10-24ab-4ea6-a522-13741b546f2a'
+    tls: true
+    servername: 345739t.de15.h1clayd.click
+    reality-opts:
+      public-key: 'hFee7zTreqlv_wccK_8zxN5v23hj9u-DshByvGf-KAA'
+      short-id: 23732d14a527990d
+    client-fingerprint: firefox
+  - name: 'NF019 IT 252ms 0.6M TG3235ms DE SS-12 | free-node'
     server: 202.50.253.81
-    port: 19999
-    udp: true
-    skip-cert-verify: false
-    type: ss
-    cipher: 'aes-256-gcm'
-    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF008 俄罗斯 253ms 0.1M TG2858ms 4Jadi-7bb6169fe3'
-    server: 45.198.0.56
-    port: 443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: 'ccb8ff48-3934-4250-b4ec-bb76b95d154f'
-    tls: true
-    servername: 'pl3.fox-lisa.ru'
-    reality-opts:
-      public-key: 'NaCZ-sS4poEbFwKmD7ePAVyc5OhHxsD9nkAStjXkoWs'
-      short-id: 027af64166562b09
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
-  - name: 'NF009 IT 259ms 1.4M TG6088ms 🇮🇹IT_4|3.2MB/s'
-    server: 202.50.253.90
-    port: 19999
-    udp: true
-    skip-cert-verify: false
-    type: ss
-    cipher: 'aes-256-gcm'
-    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF010 俄罗斯 235ms 1.0M TG2996ms 4Kian-6c430a8048'
-    server: 83.141.68.185
-    port: 443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: 'c9722094-0f55-4678-96db-3b88953a46da'
-    tls: true
-    servername: 'latino.plus-hit.ru'
-    reality-opts:
-      public-key: d3yQvdpwFHpLkl0ZbTnMH4uihCTKn4CAHy0W6so0VTI
-      short-id: 7c8e3d4a9b1f26d3
-    client-fingerprint: firefox
-    flow: 'xtls-rprx-vision'
-  - name: 'NF011 IT 247ms 1.1M TG2693ms 🇮🇹 意大利 | ITA #4'
-    server: 202.50.253.99
     port: 19999
     udp: true
     skip-cert-verify: false
@@ -128,12 +232,12 @@ proxies:
 proxy-groups:
   - name: PROXY
     type: select
-    proxies: ['NF001 土耳其 49ms 1.7M TG5040ms 🇹🇷TR_1|2.0MB/s', 'NF002 IT 243ms 0.9M TG2893ms 🇮🇹IT_1|2.9MB/s', 'NF003 俄罗斯 202ms 0.9M TG3507ms 4Nika-4f99bc914b', 'NF004 德国 198ms 1.9M TG1921ms 4Mohsen-d457b697cd', 'NF005 伊朗 211ms 0.1M TG5988ms 4FreeIran-92783994a0', 'NF006 美国 215ms 0.3M TG2470ms 4Kian-d719fc0a62', 'NF007 IT 235ms 1.3M TG1820ms 🇮🇹 意大利 | ITA #1', 'NF008 俄罗斯 253ms 0.1M TG2858ms 4Jadi-7bb6169fe3', 'NF009 IT 259ms 1.4M TG6088ms 🇮🇹IT_4|3.2MB/s', 'NF010 俄罗斯 235ms 1.0M TG2996ms 4Kian-6c430a8048', 'NF011 IT 247ms 1.1M TG2693ms 🇮🇹 意大利 | ITA #4']
+    proxies: ['NF001 土耳其 52ms 0.3M TG3837ms 🇹🇷 土耳其 | TUR #3', 'NF002 美国 165ms 1.2M TG3918ms 4Kian-cb676184fc', 'NF003 IT 237ms 0.8M TG3159ms DE SS-11 | free-node', 'NF004 俄罗斯 246ms 0.8M TG3327ms 4Nika-4f99bc914b', 'NF005 德国 225ms 0.3M TG6426ms 4Kian-dcced0deb7', 'NF006 荷兰 200ms 0.3M TG3782ms 🇳🇱 荷兰 | NLD #5', 'NF007 SK 216ms 0.3M TG4364ms 4Sarina-d78a134ad0', 'NF008 法国 184ms 0.5M TG3317ms 4Mohsen-bd2d6e4b05', 'NF009 香港 185ms 1.0M TG5037ms 4Mohsen-be2d28c9a2', 'NF010 尼日利亚 232ms 0.1M TG6038ms 4Jadi-f1b944fd03', NF011 SC 232ms 0.1M TG7037ms 🇸🇨_塞舌尔 (6), 'NF012 美国 164ms 0.7M TG2573ms 4Kian-6def9646c8', 'NF013 IT 268ms 0.7M TG4899ms DE SS-09 | free-node', 'NF014 德国 214ms 0.3M TG3903ms 4Kian-298671ee84', 'NF015 荷兰 206ms 0.4M TG5418ms 🇳🇱NL_14|1.2MB/s', 'NF016 IT 268ms 1.0M TG3995ms DE SS-13 | free-node', 'NF017 德国 227ms 0.3M TG3541ms @tootffarangi🍓', 'NF018 荷兰 233ms 0.1M TG7562ms 4Mohsen-663a0e1d39', 'NF019 IT 252ms 0.6M TG3235ms DE SS-12 | free-node']
   - name: AUTO
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies: ['NF001 土耳其 49ms 1.7M TG5040ms 🇹🇷TR_1|2.0MB/s', 'NF002 IT 243ms 0.9M TG2893ms 🇮🇹IT_1|2.9MB/s', 'NF003 俄罗斯 202ms 0.9M TG3507ms 4Nika-4f99bc914b', 'NF004 德国 198ms 1.9M TG1921ms 4Mohsen-d457b697cd', 'NF005 伊朗 211ms 0.1M TG5988ms 4FreeIran-92783994a0', 'NF006 美国 215ms 0.3M TG2470ms 4Kian-d719fc0a62', 'NF007 IT 235ms 1.3M TG1820ms 🇮🇹 意大利 | ITA #1', 'NF008 俄罗斯 253ms 0.1M TG2858ms 4Jadi-7bb6169fe3', 'NF009 IT 259ms 1.4M TG6088ms 🇮🇹IT_4|3.2MB/s', 'NF010 俄罗斯 235ms 1.0M TG2996ms 4Kian-6c430a8048', 'NF011 IT 247ms 1.1M TG2693ms 🇮🇹 意大利 | ITA #4']
+    proxies: ['NF001 土耳其 52ms 0.3M TG3837ms 🇹🇷 土耳其 | TUR #3', 'NF002 美国 165ms 1.2M TG3918ms 4Kian-cb676184fc', 'NF003 IT 237ms 0.8M TG3159ms DE SS-11 | free-node', 'NF004 俄罗斯 246ms 0.8M TG3327ms 4Nika-4f99bc914b', 'NF005 德国 225ms 0.3M TG6426ms 4Kian-dcced0deb7', 'NF006 荷兰 200ms 0.3M TG3782ms 🇳🇱 荷兰 | NLD #5', 'NF007 SK 216ms 0.3M TG4364ms 4Sarina-d78a134ad0', 'NF008 法国 184ms 0.5M TG3317ms 4Mohsen-bd2d6e4b05', 'NF009 香港 185ms 1.0M TG5037ms 4Mohsen-be2d28c9a2', 'NF010 尼日利亚 232ms 0.1M TG6038ms 4Jadi-f1b944fd03', NF011 SC 232ms 0.1M TG7037ms 🇸🇨_塞舌尔 (6), 'NF012 美国 164ms 0.7M TG2573ms 4Kian-6def9646c8', 'NF013 IT 268ms 0.7M TG4899ms DE SS-09 | free-node', 'NF014 德国 214ms 0.3M TG3903ms 4Kian-298671ee84', 'NF015 荷兰 206ms 0.4M TG5418ms 🇳🇱NL_14|1.2MB/s', 'NF016 IT 268ms 1.0M TG3995ms DE SS-13 | free-node', 'NF017 德国 227ms 0.3M TG3541ms @tootffarangi🍓', 'NF018 荷兰 233ms 0.1M TG7562ms 4Mohsen-663a0e1d39', 'NF019 IT 252ms 0.6M TG3235ms DE SS-12 | free-node']
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
