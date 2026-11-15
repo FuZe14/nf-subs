@@ -24,23 +24,21 @@
         "nf007",
         "nf008",
         "nf009",
+        "nf010",
+        "nf011",
+        "nf012",
+        "nf013",
+        "nf014",
+        "nf015",
+        "nf016",
         "direct"
       ],
       "default": "nf001"
     },
     {
-      "type": "vmess",
-      "tag": "nf001",
-      "server": "47.99.219.144",
-      "server_port": 443,
-      "uuid": "291b5d4a-19ee-4f22-91df-4dc43850b970",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
       "type": "vless",
-      "tag": "nf002",
-      "server": "fremont.freegate.win",
+      "tag": "nf001",
+      "server": "31.58.226.75",
       "server_port": 443,
       "uuid": "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc",
       "flow": "xtls-rprx-vision",
@@ -56,16 +54,8 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "nf003",
-      "server": "202.50.253.72",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
       "type": "vless",
-      "tag": "nf004",
+      "tag": "nf002",
       "server": "94.183.164.96",
       "server_port": 8443,
       "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
@@ -82,48 +72,214 @@
       }
     },
     {
-      "type": "hysteria2",
-      "tag": "nf005",
-      "server": "89.125.42.149",
-      "server_port": 11443,
-      "password": "lvu_1f46c9c7e44bef3f9974936d87ee4f44_1f900674c11bcad65b09ef1f77502ea5:np2.1.z9PBCLlUfCKIMqYEuafOnTLQIjz8lGsSRofhhXAlFdc",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "n37.neproxy.net"
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "nf006",
+      "tag": "nf003",
       "server": "202.50.253.54",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "hysteria2",
-      "tag": "nf007",
-      "server": "starlink-ft.251313.xyz",
+      "type": "vless",
+      "tag": "nf004",
+      "server": "31.59.44.89",
       "server_port": 443,
-      "password": "https://xship.best",
+      "uuid": "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "insecure": true,
-        "server_name": "xship.top"
+        "insecure": false,
+        "server_name": "amsterdam.freegate.win",
+        "reality": {
+          "enabled": true,
+          "public_key": "K9fsQw4pSymGPsVxy2TDES6Lgl_1L8qcp0LhOZitflY",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf005",
+      "server": "136.148.213.149",
+      "server_port": 443,
+      "uuid": "4618cebd-e1e9-45c3-be98-d9d6e3ee8bef",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "362c1eg.se1.h1clayd.click",
+        "reality": {
+          "enabled": true,
+          "public_key": "BLhS7fE4Yh6kAADw7yRIn2PzKun-JDagJHJNOePYRSY",
+          "short_id": "bee802ae4ab66496"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf006",
+      "server": "31.59.105.137",
+      "server_port": 443,
+      "uuid": "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "paris.freegate.win",
+        "reality": {
+          "enabled": true,
+          "public_key": "B97Gg7DpnBdFsHiCdOIQ6CGx17hcZYj2gEGNxnJ730c",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf007",
+      "server": "89.125.175.24",
+      "server_port": 8443,
+      "uuid": "052d73c9-1735-4008-b58c-e3a085dc2a37",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "uk-room07.filesnap.tech",
+        "reality": {
+          "enabled": true,
+          "public_key": "48j01Jsa4o8zfmCGEFoVjn-YeALM80-DSG_-nAZUBDM",
+          "short_id": "dbef98744832b751"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf008",
+      "server": "185.155.55.2",
+      "server_port": 8443,
+      "uuid": "5c09e56b-f97f-4360-8f01-eb4d39202095",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "ee-nf.reddotcorp.org",
+        "reality": {
+          "enabled": true,
+          "public_key": "ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE",
+          "short_id": "661766b2bcef440a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf009",
+      "server": "fremont.freegate.win",
+      "server_port": 443,
+      "uuid": "8f9c04c9-5c94-495e-9452-ab8b7a8af1bc",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "fremont.freegate.win",
+        "reality": {
+          "enabled": true,
+          "public_key": "PX-ZBQTJzVR1k6x4VQdEhd8fl5LRLnfgHZQyT9NAFhE",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf010",
+      "server": "185.231.204.244",
+      "server_port": 443,
+      "uuid": "42a64b9a-ab79-4094-8656-30366a7c2ea3",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "nl-balancer.peregrine-sub.net",
+        "reality": {
+          "enabled": true,
+          "public_key": "Y2uyTCt5ofoFht6Xl-55dBPCBUiYi1fFTVcmZtoiqFw",
+          "short_id": ""
+        }
       }
     },
     {
       "type": "shadowsocks",
-      "tag": "nf008",
-      "server": "202.50.253.90",
+      "tag": "nf011",
+      "server": "202.50.253.36",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "vless",
+      "tag": "nf012",
+      "server": "31.97.199.38",
+      "server_port": 8443,
+      "uuid": "a0751487-f7c2-4b59-8cee-99b80bbbaf33",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "africamediaconnect.fr",
+        "reality": {
+          "enabled": true,
+          "public_key": "GcraWawjMdjBJLD_HvSZ3BQuHvFnSWjbesCkMeCaITY",
+          "short_id": "5b4a12ef7e1694dd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf013",
+      "server": "ee.puflino.com",
+      "server_port": 8443,
+      "uuid": "5c09e56b-f97f-4360-8f01-eb4d39202095",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "ee-nf.reddotcorp.org",
+        "reality": {
+          "enabled": true,
+          "public_key": "ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE",
+          "short_id": "661766b2bcef440a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "nf014",
+      "server": "107.181.112.135",
+      "server_port": 8883,
+      "uuid": "370f9f39-efa6-4bfc-8ec4-2cc912424974",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "ue-author.semiconductor.samsung.com",
+        "reality": {
+          "enabled": true,
+          "public_key": "SKfzhTQJZAbgioD0DEgFt7GY4b3LcV4jVKQxwaHwG1M",
+          "short_id": "1a18259dd959"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "nf015",
+      "server": "202.50.253.72",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "shadowsocks",
-      "tag": "nf009",
+      "tag": "nf016",
       "server": "202.50.253.81",
       "server_port": 19999,
       "method": "aes-256-gcm",
