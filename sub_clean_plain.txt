@@ -1,1 +1,1 @@
-vless://5dd429fa-3fa6-44d0-bce6-01b84ce846f1@213.165.53.128:8443?encryption=none&type=tcp&security=reality&sni=max.ru&fp=qq&flow=xtls-rprx-vision&pbk=6eTbd1WZW73YAsduaixDma7FYzhqaTXU5uZZULmq-hw&sid=2f62279c527b54a5#4Nika-8e1b36c9f6
+vless://ea1bee20-9217-42c0-acee-d12bf0c42602@178.17.53.154:48982?encryption=none&type=xhttp&security=reality&sni=cdn6-91.yahoo.com&fp=chrome&pbk=A1ygNS8bIvKp7ZlUnjjHX_Z2AS_e4suvSs_IkWICvGE#%5B98958%5D%20-%20Telegram%20%3A%20%40V2All
