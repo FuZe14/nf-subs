@@ -23,95 +23,73 @@
         "nf006",
         "nf007",
         "nf008",
-        "nf009",
-        "nf010",
-        "nf011",
         "direct"
       ],
       "default": "nf001"
     },
     {
-      "type": "vless",
-      "tag": "nf001",
-      "server": "201.8.89.206",
-      "server_port": 443,
-      "uuid": "df97ce68-477f-4484-94c7-79eccab7319d",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "de6.angelsleep9.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "4Pr5MyI4E3L4qiH-aDU5P0sJBY2droqsV2a3GT7dFww",
-          "short_id": "43f1a3744108b7b0"
-        }
-      }
-    },
-    {
       "type": "shadowsocks",
-      "tag": "nf002",
-      "server": "202.50.253.36",
+      "tag": "nf001",
+      "server": "202.50.253.99",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "vless",
+      "tag": "nf002",
+      "server": "sync.2ml.bid",
+      "server_port": 443,
+      "uuid": "8344360f-0349-4784-a19f-33fd92e89389",
+      "tls": {
+        "enabled": true,
+        "insecure": false,
+        "server_name": "sync.2ml.bid"
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "v3-direct"
+      }
+    },
+    {
+      "type": "vless",
       "tag": "nf003",
-      "server": "free.fugui.lol",
-      "server_port": 51283,
-      "uuid": "ead3595f-4020-4e76-a3ec-c248e1a2f2f7",
+      "server": "46.247.109.129",
+      "server_port": 443,
+      "uuid": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "swdist.apple.com",
+        "server_name": "auto-2.storagedirectguide.com",
         "reality": {
           "enabled": true,
-          "public_key": "IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ",
-          "short_id": "fa514b83"
+          "public_key": "AiLOqdc8MtLlRdtyjM9wNd1CIStXleOlP6-NCOSKlTg",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "nf004",
-      "server": "84.32.54.237",
+      "server": "45.192.12.92",
       "server_port": 443,
-      "uuid": "a30903dc-1bf0-4be5-8b1b-603a3a56211c",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "rly-gw-cfg.galioncc.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
-          "short_id": "868419504747f6de"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "nf005",
-      "server": "201.58.186.140",
-      "server_port": 443,
-      "uuid": "038e6b17-84e9-4ace-8973-8ef2308ed6e1",
+      "uuid": "352a250d-080b-47b5-b7db-f9f8fa31c551",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "insecure": false,
-        "server_name": "yandex.ru",
+        "server_name": "nltimes.nl",
         "reality": {
           "enabled": true,
-          "public_key": "T1BWBw3lq9G1LiQ7eQSPfdNQic7bUMEbdFNJBewAwB8",
-          "short_id": "6ad3c0f1e9b2478a"
+          "public_key": "aUOP5gJGQ1QFhdZuREZ8yosfPavFiJ6f_EySIBZ2WCE",
+          "short_id": ""
         }
       }
     },
     {
       "type": "trojan",
-      "tag": "nf006",
+      "tag": "nf005",
       "server": "alireza.karamoz1.ir",
       "server_port": 443,
       "password": "poimnap",
@@ -123,62 +101,24 @@
     },
     {
       "type": "shadowsocks",
+      "tag": "nf006",
+      "server": "202.50.253.90",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    },
+    {
+      "type": "shadowsocks",
       "tag": "nf007",
-      "server": "202.50.253.45",
+      "server": "202.50.253.63",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "nf008",
-      "server": "209.94.90.47",
-      "server_port": 2083,
-      "uuid": "a6ad7987-f17e-41fa-a752-72db9a725eb2",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "vipfree.dr-ping.ir"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vipfree.dr-ping.ir"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "nf009",
-      "server": "202.50.253.54",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "vless",
-      "tag": "nf010",
-      "server": "198.202.24.214",
-      "server_port": 2083,
-      "uuid": "a6ad7987-f17e-41fa-a752-72db9a725eb2",
-      "tls": {
-        "enabled": true,
-        "insecure": false,
-        "server_name": "vipfree.dr-ping.ir"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "vipfree.dr-ping.ir"
-        }
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "nf011",
-      "server": "202.50.253.18",
+      "server": "202.50.253.81",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
