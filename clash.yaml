@@ -5,39 +5,15 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: 'NF001 IT 249ms 0.6M TG2432ms 未知 SS-19 | free-node'
-    server: 202.50.253.99
+  - name: 'NF001 IT 269ms 0.5M TG5940ms 未知 SS-07 | free-node'
+    server: 202.50.253.72
     port: 19999
     udp: true
     skip-cert-verify: false
     type: ss
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF002 加拿大 227ms 0.5M TG3980ms 4Nika-cf43e9558a'
-    server: sync.2ml.bid
-    port: 443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '8344360f-0349-4784-a19f-33fd92e89389'
-    tls: true
-    servername: sync.2ml.bid
-    network: grpc
-  - name: 'NF003 德国 240ms 0.3M TG1652ms DE VLESS-18 | free-n'
-    server: 46.247.109.129
-    port: 443
-    udp: true
-    skip-cert-verify: false
-    type: vless
-    uuid: '955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6'
-    tls: true
-    servername: 'auto-2.storagedirectguide.com'
-    reality-opts:
-      public-key: 'AiLOqdc8MtLlRdtyjM9wNd1CIStXleOlP6-NCOSKlTg'
-      short-id: ''
-    client-fingerprint: chrome
-    flow: 'xtls-rprx-vision'
-  - name: 'NF004 荷兰 217ms 0.3M TG3531ms 4FreeIran-e509b1502f'
+  - name: 'NF002 荷兰 253ms 0.2M TG2602ms 4FreeIran-e509b1502f'
     server: 45.192.12.92
     port: 443
     udp: true
@@ -51,32 +27,34 @@ proxies:
       short-id: ''
     client-fingerprint: chrome
     flow: 'xtls-rprx-vision'
-  - name: 'NF005 伊朗 185ms 0.1M TG3266ms 4Nika-679bf26bcc'
-    server: alireza.karamoz1.ir
+  - name: 'NF003 加拿大 230ms 0.1M TG5341ms 4Nika-cf43e9558a'
+    server: sync.2ml.bid
     port: 443
     udp: true
     skip-cert-verify: false
-    type: trojan
-    password: poimnap
-    sni: alireza.karamoz1.ir
-  - name: 'NF006 IT 272ms 0.6M TG2551ms 未知 SS-09 | free-node'
-    server: 202.50.253.90
+    type: vless
+    uuid: '8344360f-0349-4784-a19f-33fd92e89389'
+    tls: true
+    servername: sync.2ml.bid
+    network: grpc
+  - name: 'NF004 IT 245ms 0.3M TG3549ms 未知 SS-19 | free-node'
+    server: 202.50.253.99
     port: 19999
     udp: true
     skip-cert-verify: false
     type: ss
     cipher: 'aes-256-gcm'
     password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF007 IT 283ms 0.5M TG2142ms 未知 SS-15 | free-node'
+  - name: 'NF005 IT 275ms 0.3M TG3797ms 未知 SS-06 | free-node'
+    server: 202.50.253.36
+    port: 19999
+    udp: true
+    skip-cert-verify: false
+    type: ss
+    cipher: 'aes-256-gcm'
+    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
+  - name: 'NF006 IT 265ms 0.3M TG4767ms 未知 SS-15 | free-node'
     server: 202.50.253.63
-    port: 19999
-    udp: true
-    skip-cert-verify: false
-    type: ss
-    cipher: 'aes-256-gcm'
-    password: 'ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4='
-  - name: 'NF008 IT 269ms 0.3M TG2581ms 未知 SS-08 | free-node'
-    server: 202.50.253.81
     port: 19999
     udp: true
     skip-cert-verify: false
@@ -86,12 +64,12 @@ proxies:
 proxy-groups:
   - name: PROXY
     type: select
-    proxies: ['NF001 IT 249ms 0.6M TG2432ms 未知 SS-19 | free-node', 'NF002 加拿大 227ms 0.5M TG3980ms 4Nika-cf43e9558a', 'NF003 德国 240ms 0.3M TG1652ms DE VLESS-18 | free-n', 'NF004 荷兰 217ms 0.3M TG3531ms 4FreeIran-e509b1502f', 'NF005 伊朗 185ms 0.1M TG3266ms 4Nika-679bf26bcc', 'NF006 IT 272ms 0.6M TG2551ms 未知 SS-09 | free-node', 'NF007 IT 283ms 0.5M TG2142ms 未知 SS-15 | free-node', 'NF008 IT 269ms 0.3M TG2581ms 未知 SS-08 | free-node']
+    proxies: ['NF001 IT 269ms 0.5M TG5940ms 未知 SS-07 | free-node', 'NF002 荷兰 253ms 0.2M TG2602ms 4FreeIran-e509b1502f', 'NF003 加拿大 230ms 0.1M TG5341ms 4Nika-cf43e9558a', 'NF004 IT 245ms 0.3M TG3549ms 未知 SS-19 | free-node', 'NF005 IT 275ms 0.3M TG3797ms 未知 SS-06 | free-node', 'NF006 IT 265ms 0.3M TG4767ms 未知 SS-15 | free-node']
   - name: AUTO
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
-    proxies: ['NF001 IT 249ms 0.6M TG2432ms 未知 SS-19 | free-node', 'NF002 加拿大 227ms 0.5M TG3980ms 4Nika-cf43e9558a', 'NF003 德国 240ms 0.3M TG1652ms DE VLESS-18 | free-n', 'NF004 荷兰 217ms 0.3M TG3531ms 4FreeIran-e509b1502f', 'NF005 伊朗 185ms 0.1M TG3266ms 4Nika-679bf26bcc', 'NF006 IT 272ms 0.6M TG2551ms 未知 SS-09 | free-node', 'NF007 IT 283ms 0.5M TG2142ms 未知 SS-15 | free-node', 'NF008 IT 269ms 0.3M TG2581ms 未知 SS-08 | free-node']
+    proxies: ['NF001 IT 269ms 0.5M TG5940ms 未知 SS-07 | free-node', 'NF002 荷兰 253ms 0.2M TG2602ms 4FreeIran-e509b1502f', 'NF003 加拿大 230ms 0.1M TG5341ms 4Nika-cf43e9558a', 'NF004 IT 245ms 0.3M TG3549ms 未知 SS-19 | free-node', 'NF005 IT 275ms 0.3M TG3797ms 未知 SS-06 | free-node', 'NF006 IT 265ms 0.3M TG4767ms 未知 SS-15 | free-node']
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,PROXY
