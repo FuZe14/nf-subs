@@ -21,7 +21,6 @@
         "nf004",
         "nf005",
         "nf006",
-        "nf007",
         "direct"
       ],
       "default": "nf001"
@@ -29,89 +28,55 @@
     {
       "type": "shadowsocks",
       "tag": "nf001",
-      "server": "202.50.253.54",
+      "server": "202.50.253.36",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "nf002",
-      "server": "162.35.101.177",
-      "server_port": 443,
-      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+      "server": "23.141.172.229",
+      "server_port": 50541,
+      "password": "ePPsH1bMFD",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "0592efg.us8.h1clayd.click",
-        "reality": {
-          "enabled": true,
-          "public_key": "cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk",
-          "short_id": "bd8f712209a9c283"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "99f2107b03f8"
+        "insecure": true,
+        "server_name": "is1-ssl.mzstatic.com"
       }
     },
     {
-      "type": "vless",
+      "type": "hysteria2",
       "tag": "nf003",
-      "server": "178.248.236.229",
+      "server": "135.126.21.106",
       "server_port": 443,
-      "uuid": "a71d6c6d-c95e-4ec1-a892-22e21733bf09",
-      "flow": "xtls-rprx-vision",
+      "password": "6ac6d17d-040c-4fab-940e-8f5d72c3fed6",
       "tls": {
         "enabled": true,
-        "insecure": false,
-        "server_name": "144.hexdey.com",
-        "reality": {
-          "enabled": true,
-          "public_key": "_3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0",
-          "short_id": "d05a120d3506d2cc"
-        }
+        "insecure": true,
+        "server_name": "de1-balance.rezproffx.ru"
       }
     },
     {
       "type": "shadowsocks",
       "tag": "nf004",
-      "server": "202.50.253.18",
+      "server": "202.50.253.63",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "nf005",
-      "server": "xray-b8ct4r2f-sahdon-hosaindoost.cloady.io",
-      "server_port": 443,
-      "uuid": "1fd2e2d1-96f5-2056-19fd-b375b1a9d851",
-      "tls": {
-        "enabled": true,
-        "insecure": true,
-        "server_name": "xray-b8ct4r2f-sahdon-hosaindoost.cloady.io"
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ffad70ffdfc3bcda",
-        "headers": {
-          "Host": "xray-b8ct4r2f-sahdon-hosaindoost.cloady.io"
-        }
-      }
+      "server": "202.50.253.27",
+      "server_port": 19999,
+      "method": "aes-256-gcm",
+      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     },
     {
       "type": "shadowsocks",
       "tag": "nf006",
       "server": "202.50.253.45",
-      "server_port": 19999,
-      "method": "aes-256-gcm",
-      "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "nf007",
-      "server": "202.50.253.63",
       "server_port": 19999,
       "method": "aes-256-gcm",
       "password": "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
